@@ -45,6 +45,7 @@
 
 ## Checklist
 
+- [ ] My branch name and PR title describe the change without tool branding
 - [ ] My code follows the project's coding style
 - [ ] I have performed a self-review of my code
 - [ ] I have added/updated documentation as needed
