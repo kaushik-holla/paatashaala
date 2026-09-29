@@ -1,0 +1,40 @@
+.learning-generation {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary);
+}
+.learning-generation > div:first-child[aria-hidden] {
+  display: none;
+}
+.learning-generation [class*='bg-white/80'],
+.learning-generation [class*='dark:bg-slate-900/80'] {
+  background: var(--bg-surface) !important;
+  border-color: var(--border-subtle);
+  box-shadow: var(--shadow-surface);
+}
+.learning-generation h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  font-size: clamp(25px, 3vw, 35px);
+}
+.learning-generation .text-muted-foreground {
+  color: var(--text-secondary);
+}
+.learning-generation [class*='bg-blue-500'] {
+  background: var(--accent-primary);
+}
+.learning-generation [class*='bg-purple-500'],
+.learning-generation [class*='bg-violet-500'] {
+  background: var(--accent-primary-soft);
+}
+.learning-generation [class*='text-purple-400'],
+.learning-generation [class*='text-violet-500'] {
+  color: var(--accent-primary);
+}
+.learning-generation button:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+.dark .learning-generation [class*='bg-white/80'] {
+  background: var(--bg-surface) !important;
+}

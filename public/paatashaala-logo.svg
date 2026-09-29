@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-labelledby="title desc">
+  <title id="title">Paatashaala</title>
+  <desc id="desc">Paatashaala open book logo</desc>
+  <rect x="4" y="4" width="88" height="88" rx="24" fill="#456477"/>
+  <path d="M19 27c12-4 22-2 29 5v39c-7-6-17-8-29-4V27Z" fill="#F9F8F6"/>
+  <path d="M77 27c-12-4-22-2-29 5v39c7-6 17-8 29-4V27Z" fill="#E0EBEB"/>
+  <path d="M48 32v39" fill="none" stroke="#A3B18A" stroke-width="3" stroke-linecap="round"/>
+  <text x="110" y="63" fill="#1A1A1A" font-family="Lato, Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="700" letter-spacing="-1">Paatashaala</text>
+</svg>

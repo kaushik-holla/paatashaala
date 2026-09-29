@@ -1,0 +1,230 @@
+/* The learning chrome follows the same product tokens as the entry experience.
+   Generated slide canvases keep their own authored theme and remain untouched. */
+.learning-classroom {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary);
+}
+.learning-classroom .learning-scene-sidebar {
+  background: #1a1a1a !important;
+  border-right: 1px solid #30393d !important;
+  box-shadow: none !important;
+  color: #f8f8f6;
+}
+.learning-classroom .learning-scene-sidebar > div {
+  padding: 8px 5px 14px;
+}
+.learning-classroom .learning-scene-sidebar > div > div:first-child {
+  height: 54px;
+  margin: 0 0 15px;
+  padding: 0 13px;
+  border-bottom: 1px solid #353b3d;
+}
+.learning-classroom .learning-scene-sidebar > div > div:first-child button:first-child {
+  color: #f9f8f6;
+  font: 600 17px var(--font-display);
+  gap: 9px;
+}
+.learning-classroom .learning-scene-sidebar > div > div:first-child button:first-child:hover {
+  background: #2b3336;
+}
+.learning-classroom .learning-scene-sidebar > div > div:first-child button:last-child {
+  background: #2d3336;
+  color: #c7d1d6;
+}
+.learning-classroom .learning-scene-sidebar [data-testid='scene-list'] {
+  padding: 0 9px;
+  scrollbar-color: #8fa4af #263238;
+  scrollbar-width: thin;
+  scrollbar-gutter: stable;
+}
+.learning-classroom .learning-scene-sidebar [data-testid='scene-list']::-webkit-scrollbar {
+  width: 10px;
+}
+.learning-classroom .learning-scene-sidebar [data-testid='scene-list']::-webkit-scrollbar-track {
+  background: #263238;
+  border-radius: 8px;
+}
+.learning-classroom .learning-scene-sidebar [data-testid='scene-list']::-webkit-scrollbar-thumb {
+  background: #8fa4af;
+  border: 2px solid #263238;
+  border-radius: 8px;
+}
+/* The full-size playback canvas paints tables through the shared renderer.
+   Give its cell HTML the same paragraph geometry as the thumbnail canvas. */
+.learning-classroom .screen-element .slide-renderer-prose p {
+  margin-top: 0;
+  margin-bottom: var(--paragraphSpace, 0);
+}
+.learning-classroom .screen-element .slide-renderer-prose p:last-child {
+  margin-bottom: 0;
+}
+.learning-classroom .screen-element .slide-renderer-cell-text p + p {
+  margin-top: 0.4em;
+}
+.learning-classroom .learning-scene-sidebar [data-testid='scene-item'] {
+  border-radius: 11px;
+  padding: 9px;
+  margin-bottom: 3px;
+  gap: 8px;
+}
+.learning-classroom .learning-scene-sidebar [data-testid='scene-item']:not(.ring-1):hover {
+  background: #282e30;
+}
+.learning-classroom
+  .learning-scene-sidebar
+  [data-testid='scene-item']:not(.ring-1)
+  [data-testid='scene-title'] {
+  color: #d2dcdf;
+}
+.learning-classroom
+  .learning-scene-sidebar
+  [data-testid='scene-item']:not(.ring-1)
+  span.rounded-full {
+  background: #343f44;
+  color: #c1ced3;
+}
+.learning-classroom .learning-scene-sidebar [data-testid='scene-item'] .aspect-video {
+  border-radius: 7px;
+  box-shadow: 0 2px 10px #0002;
+}
+.learning-classroom .learning-scene-brand {
+  letter-spacing: -0.02em;
+}
+.learning-classroom .learning-classroom-main {
+  background: var(--bg-primary);
+}
+.learning-classroom .learning-classroom-header {
+  background: var(--bg-surface) !important;
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 0 30px;
+}
+.learning-classroom .learning-classroom-header h1 {
+  font-family: var(--font-display);
+  font-size: 23px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.learning-classroom .learning-classroom-header span {
+  color: var(--text-secondary);
+}
+.learning-classroom .learning-classroom-header button:hover {
+  background: var(--accent-primary-soft);
+}
+.learning-classroom .learning-classroom-canvas {
+  padding: 22px 26px 14px;
+  background: var(--bg-primary);
+}
+.learning-classroom .learning-canvas-area {
+  border: 1px solid var(--border-subtle);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--shadow-surface);
+  background: var(--bg-surface) !important;
+}
+.learning-classroom .learning-classroom-roundtable:not(.absolute) {
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+}
+.learning-classroom .learning-chat-panel {
+  background: var(--bg-surface) !important;
+  border-left: 1px solid var(--border-subtle) !important;
+  box-shadow: none !important;
+}
+.learning-classroom .learning-chat-panel [role='tablist'] {
+  border-bottom-color: var(--border-subtle);
+}
+.learning-classroom .learning-chat-panel [role='tab'][data-state='active'] {
+  color: var(--accent-primary);
+}
+.learning-classroom .learning-chat-panel [class*='bg-purple-'],
+.learning-classroom .learning-chat-panel [class*='bg-violet-'] {
+  background: var(--accent-primary-soft);
+}
+.learning-classroom .learning-chat-panel [class*='text-purple-'],
+.learning-classroom .learning-chat-panel [class*='text-violet-'] {
+  color: var(--accent-primary);
+}
+.learning-classroom [class*='bg-purple-600'],
+.learning-classroom [class*='bg-violet-600'] {
+  background: var(--accent-primary);
+}
+.learning-classroom [class*='text-purple-600'],
+.learning-classroom [class*='text-violet-600'] {
+  color: var(--accent-primary);
+}
+.learning-classroom [class*='border-purple-'],
+.learning-classroom [class*='border-violet-'] {
+  border-color: var(--border-subtle);
+}
+.dark .learning-classroom .learning-scene-sidebar {
+  background: #121414 !important;
+}
+@media (max-width: 1150px) {
+  .learning-classroom .learning-classroom-canvas {
+    padding: 12px;
+  }
+  .learning-classroom .learning-classroom-header {
+    padding: 0 18px;
+  }
+  .learning-classroom .learning-chat-panel {
+    max-width: 290px;
+  }
+}
+@media (max-width: 800px) {
+  .learning-classroom .learning-scene-sidebar {
+    max-width: 190px;
+  }
+  .learning-classroom .learning-classroom-header h1 {
+    font-size: 18px;
+  }
+  .learning-classroom .learning-classroom-canvas {
+    padding: 7px;
+  }
+  .learning-classroom .learning-chat-panel {
+    max-width: 240px;
+  }
+}
+@media (max-width: 700px) {
+  .learning-classroom .learning-scene-sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 45;
+    max-width: min(80vw, 280px);
+    box-shadow: 14px 0 35px #0003 !important;
+  }
+  .learning-classroom .learning-scene-sidebar[data-collapsed='true'] {
+    box-shadow: none !important;
+  }
+  .learning-classroom .learning-classroom-chat[data-collapsed='false'] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 45;
+    width: min(88vw, 340px);
+    box-shadow: -14px 0 35px #0003;
+  }
+  .learning-classroom .learning-classroom-chat[data-collapsed='false'] .learning-chat-panel {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  .learning-classroom .learning-classroom-header {
+    padding: 0 10px;
+    gap: 7px;
+  }
+  .learning-classroom .learning-classroom-header h1 {
+    font-size: 16px;
+  }
+  .learning-classroom .learning-classroom-canvas {
+    padding: 6px;
+  }
+}
+.learning-classroom .learning-scene-kicker {
+  color: #9db0b8;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.17em;
+  padding: 7px 19px 15px;
+}

@@ -1,0 +1,75 @@
+.learning-quiz {
+  background: var(--bg-primary) !important;
+  color: var(--text-primary);
+}
+.learning-quiz > div {
+  max-width: 100%;
+}
+.learning-quiz h3 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.learning-quiz .bg-white,
+.learning-quiz .dark\:bg-gray-800 {
+  background: var(--bg-surface);
+}
+.learning-quiz .bg-violet-50,
+.learning-quiz .bg-violet-100,
+.learning-quiz .bg-purple-50 {
+  background: var(--accent-primary-soft);
+}
+.learning-quiz .text-violet-500,
+.learning-quiz .text-violet-600,
+.learning-quiz .text-purple-500,
+.learning-quiz .text-purple-600 {
+  color: var(--accent-primary);
+}
+.learning-quiz .bg-violet-500,
+.learning-quiz .bg-violet-400,
+.learning-quiz .bg-purple-500 {
+  background: var(--accent-primary);
+}
+.learning-quiz .border-violet-400,
+.learning-quiz .border-violet-300,
+.learning-quiz .border-violet-200,
+.learning-quiz .border-violet-100 {
+  border-color: var(--accent-primary);
+}
+.learning-quiz .from-violet-500,
+.learning-quiz .from-violet-100 {
+  --tw-gradient-from: var(--accent-primary) !important;
+}
+.learning-quiz .to-purple-500,
+.learning-quiz .to-purple-50 {
+  --tw-gradient-to: var(--accent-primary) !important;
+}
+.learning-quiz .rounded-2xl {
+  border-radius: 14px;
+}
+.learning-quiz .rounded-full.bg-gradient-to-r {
+  border-radius: 9px;
+  box-shadow: none;
+}
+.learning-quiz button:focus-visible,
+.learning-quiz textarea:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+.learning-quiz .text-gray-800 {
+  color: var(--text-primary);
+}
+.learning-quiz .text-gray-500,
+.learning-quiz .text-gray-400 {
+  color: var(--text-secondary);
+}
+.learning-quiz .border-gray-100,
+.learning-quiz .border-gray-150,
+.learning-quiz .border-gray-200 {
+  border-color: var(--border-subtle);
+}
+.dark .learning-quiz .bg-violet-50,
+.dark .learning-quiz .bg-violet-100 {
+  background: var(--accent-primary-soft);
+}

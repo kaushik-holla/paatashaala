@@ -1,0 +1,35 @@
+/**
+ * GENERATED FILE — do not edit by hand.
+ * Source of truth: fonts.config.mjs (run `pnpm run genfonts` to regenerate).
+ * These aliases use locally installed fonts only and make no network requests.
+ */
+@font-face {
+  font-display: swap;
+  font-family: 'SourceHanSans';
+  src: local('Source Han Sans'), local('Noto Sans SC');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'SourceHanSerif';
+  src: local('Source Han Serif'), local('Noto Serif SC');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'LXGWWenKai';
+  src: local('LXGW WenKai');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'ZhuQueFangSong';
+  src: local('Zhuque Fangsong'), local('Noto Serif SC');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'WenDingPLKaiTi';
+  src: local('AR PL KaitiM GB'), local('Noto Serif SC');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'ZcoolHappy';
+  src: local('ZCOOL KuaiLe');
+}
