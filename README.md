@@ -1,5 +1,7 @@
 # Paatashaala
 
+[Visit the website](https://kaushik-holla.github.io/paatashaala/) · [Explore the code](https://github.com/kaushik-holla/paatashaala)
+
 Create a course from a question or your own material, then learn through slides, practice, quizzes, and an interactive classroom. Paatashaala focuses on English-first learners in the United States and India, with a calm ivory, charcoal, and steel-blue interface across the entire learning flow.
 
 Paatashaala is an independent project with its own interface and product direction. Its open-source foundation and license notices are acknowledged in [Credits and license](#credits-and-license).

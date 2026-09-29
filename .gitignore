@@ -76,8 +76,7 @@ next-env.d.ts
 /local-setup/server.log
 /local-setup/server.pid
 
-# docs
-/docs
+# GitHub Pages site is published from /docs
 # Eval results
 eval/whiteboard-layout/results/
 eval/outline-language/results/
