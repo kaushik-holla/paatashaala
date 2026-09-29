@@ -64,7 +64,7 @@
       "errRejected": "Le serveur a refusé cet import",
       "mySkills": "Mes skills",
       "builtinSkills": "Skills intégrés",
-      "emptyMySkills": "Pas encore de skill à vous — importez un zip, ou demandez à l’agent d’en créer un depuis l’historique.",
+      "emptyMySkills": "Pas encore de skill à vous, importez un zip, ou demandez à l’agent d’en créer un depuis l’historique.",
       "newUpload": "nouveau",
       "refsNote": "· {{count}} documents de référence",
       "downloadLabel": "Télécharger",

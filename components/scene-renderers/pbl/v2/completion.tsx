@@ -66,7 +66,7 @@ export interface CompletionReportViewModel {
 }
 
 function formatDuration(totalSeconds: number, t: ReturnType<typeof useI18n>['t']): string {
-  if (totalSeconds <= 0) return '—';
+  if (totalSeconds <= 0) return 'N/A';
   const m = Math.floor(totalSeconds / 60);
   if (m < 60) return t('pbl.v2.completion.durationMinutes', { m });
   const h = Math.floor(m / 60);

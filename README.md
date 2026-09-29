@@ -68,6 +68,6 @@ Paatashaala builds on [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) and the r
 
 Bundled components retain their own notices and terms:
 
-- [`packages/mathml2omml`](packages/mathml2omml/LICENSE) — LGPL-3.0-or-later.
-- [`packages/pptxgenjs`](packages/pptxgenjs/LICENSE) — MIT; copyright Brent Ely, with source attribution to OfficeGen in the [PptxGenJS source header](packages/pptxgenjs/src/pptxgen.ts).
+- [`packages/mathml2omml`](packages/mathml2omml/LICENSE): LGPL-3.0-or-later.
+- [`packages/pptxgenjs`](packages/pptxgenjs/LICENSE): MIT; copyright Brent Ely, with source attribution to OfficeGen in the [PptxGenJS source header](packages/pptxgenjs/src/pptxgen.ts).
 - Bundled renderer font licenses are in [`packages/@paatashaala/renderer/font-licenses`](packages/@paatashaala/renderer/font-licenses).

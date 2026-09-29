@@ -622,7 +622,7 @@ export const PlaybackChromeRoot = forwardRef<PlaybackChromeRootHandle, PlaybackC
         setChatAreaCollapsed(true);
       } catch {
         // Firefox may deny fullscreen from certain keyboard events (e.g. F11)
-        console.warn('[Presentation] Fullscreen request denied — browser policy');
+        console.warn('[Presentation] Fullscreen request denied: browser policy');
       }
     }, [setChatAreaCollapsed, setSidebarCollapsed]);
 

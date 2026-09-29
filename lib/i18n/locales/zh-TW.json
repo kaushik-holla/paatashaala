@@ -77,7 +77,7 @@
     "videoTooLarge": "匯出檔案超過服務允許的大小。",
     "videoWarnings": "影片警告：缺少 {{assets}} 個素材，匯出報告有 {{diagnostics}} 個問題。",
     "videoMp4Success": "MP4 影片已就緒",
-    "videoServiceUnavailable": "未設定渲染服務 — 已下載專案 ZIP 供本機渲染。",
+    "videoServiceUnavailable": "未設定渲染服務，已下載專案 ZIP 供本機渲染。",
     "videoResolution": "解析度",
     "videoFps": "FPS",
     "videoQuality": "品質",
@@ -105,7 +105,7 @@
     "subtitlesEmpty": "沒有可產生字幕的旁白",
     "subtitlesFailed": "字幕下載失敗",
     "noSlides": "無可匯出的幻燈片",
-    "noSlidesSkipped": "此課程沒有投影片 — 已略過 PPTX",
+    "noSlidesSkipped": "此課程沒有投影片，已略過 PPTX",
     "nothingToExport": "沒有可匯出的內容"
   },
   "import": {
@@ -237,7 +237,7 @@
     "exitFullscreen": "離開全螢幕",
     "editCourse": "編輯課程",
     "doneEditing": "完成編輯",
-    "proModeDisabledHint": "此頁面無法編輯——開啟課程投影片以使用 Pro 模式編輯。"
+    "proModeDisabledHint": "此頁面無法編輯，開啟課程投影片以使用 Pro 模式編輯。"
   },
   "edit": {
     "proMode": "專業模式",
@@ -246,7 +246,7 @@
     "delete": "刪除",
     "title": "編輯 {{type}}",
     "unsupportedScene": "{{type}} 尚無法編輯",
-    "readOnlyBadge": "{{type}} — 僅供檢視",
+    "readOnlyBadge": "{{type}}，僅供檢視",
     "sceneType": {
       "slide": "投影片",
       "quiz": "測驗",
@@ -418,13 +418,13 @@
       "placeholder": "描述此投影片上的改動…",
       "stop": "停止生成",
       "empty": {
-        "lead": "告訴我如何修改此投影片——我會重新製作內容並調整旁白。",
+        "lead": "告訴我如何修改此投影片，我會重新製作內容並調整旁白。",
         "boundary": "精細編輯請使用編輯器；從左側導覽列新增/刪除/重新排列投影片。",
         "comingSoon": "更多功能即將推出。"
       },
       "interactive": {
         "emptyTitle": "此頁面需要修正什麼？",
-        "lead": "描述此互動頁上的錯誤——例如某個按鈕無反應——我會精準修復，保留其他所有內容。",
+        "lead": "描述此互動頁上的錯誤，例如某個按鈕無反應，我會精準修復，保留其他所有內容。",
         "placeholder": "描述此互動頁上的錯誤…",
         "boundary": "我會對頁面進行精準修復，不會重建整個頁面。從左側導覽列切換場景。"
       },
@@ -648,7 +648,7 @@
       "startPicking": "引用元素"
     },
     "dock": {
-      "elementRefHint": "元素引用 —— 選取元素隨下一則訊息發給 Agent",
+      "elementRefHint": "元素引用，選取元素隨下一則訊息發給 Agent",
       "globalTools": "全域工具"
     }
   },
@@ -736,7 +736,7 @@
         "continueProject": "繼續做專案",
         "resetProgress": "重置學習進度",
         "resetConfirmTitle": "重置學習進度？",
-        "resetConfirmDescription": "這會清空本專案的全部進度——對話歷史、提交內容與各階段狀態，你將從頭重新開始。此操作無法復原。",
+        "resetConfirmDescription": "這會清空本專案的全部進度，對話歷史、提交內容與各階段狀態，你將從頭重新開始。此操作無法復原。",
         "resetConfirmConfirm": "確認重置",
         "resetConfirmCancel": "取消",
         "startHint": "點擊後會進入工作台，{{name}} 將為你逐步揭曉每個階段。",
@@ -815,7 +815,7 @@
         "continueHint": "點擊 Continue 按鈕後，我會再帶你進入下一階段。",
         "alreadyEntered": "已進入下一階段",
         "continueToNext": "繼續到下一階段",
-        "projectAlmostDone": "🎉 專案即將完成 —— 等待生成結業報告"
+        "projectAlmostDone": "🎉 專案即將完成，等待生成結業報告"
       },
       "taskEvalCard": {
         "title": "本次提交點評",
@@ -900,7 +900,7 @@
         "coreStageBadge": "核心",
         "conceptsInStageLabel": "解鎖了概念：",
         "submissionsInStage": "提交了 {{count}} 件作品",
-        "coreConceptGrasp": "核心概念「{{concept}}」——{{quality}}",
+        "coreConceptGrasp": "核心概念「{{concept}}」，{{quality}}",
         "stageNoData": "本階段沒有記錄的產出。",
         "scenario": {
           "summary": "你完成了這場情景模擬的 {{acts}} 幕。這是這次角色扮演的表現回顧。",
@@ -927,9 +927,9 @@
         },
         "highlightsTitle": "你的亮點",
         "highlight": {
-          "independence": "你自主展現了 {{unlocks}}/{{total}} 個概念——不靠追問，自己就表達出來了，理解很扎實。",
-          "resilience": "在「{{title}}」階段你克服了 {{errors}} 個錯誤，逐一攻克——韌性強。",
-          "resilienceGeneral": "你克服了 {{errors}} 個錯誤，逐一攻克——韌性強。",
+          "independence": "你自主展現了 {{unlocks}}/{{total}} 個概念，不靠追問，自己就表達出來了，理解很扎實。",
+          "resilience": "在「{{title}}」階段你克服了 {{errors}} 個錯誤，逐一攻克，韌性強。",
+          "resilienceGeneral": "你克服了 {{errors}} 個錯誤，逐一攻克，韌性強。",
           "completion": "完成了全部任務，每一步都扎實走過。"
         },
         "synthesisQuality": {
@@ -991,7 +991,7 @@
     "folderDeleteFailed": "刪除資料夾失敗",
     "moveFailed": "移動課程失敗",
     "emptyFolderHint": "這個資料夾是空的",
-    "emptyLibraryHint": "還沒有課程——在上方建立，或匯入一個課程。",
+    "emptyLibraryHint": "還沒有課程，在上方建立，或匯入一個課程。",
     "folderNameEmpty": "資料夾名稱不能為空",
     "deleteFolderOnly": "僅刪除資料夾",
     "deleteFolderAndCourses": "刪除資料夾和 {{count}} 門課程",
@@ -1542,14 +1542,14 @@
     "qwenVoiceDolce": "慵懶的義大利大叔",
     "qwenVoiceSohee": "溫柔開朗，情緒豐富的韓國歐尼",
     "qwenVoiceOnoAnna": "鬼靈精怪的青梅竹馬",
-    "qwenVoiceLenn": "理性是底色，叛逆藏在細節裡——穿西裝也聽後龐克的德國青年",
+    "qwenVoiceLenn": "理性是底色，叛逆藏在細節裡，穿西裝也聽後龐克的德國青年",
     "qwenVoiceEmilien": "浪漫的法國大哥哥",
     "qwenVoiceAndre": "聲音磁性，自然舒服、沉穩男生",
     "qwenVoiceRadioGol": "足球詩人Rádio Gol！今天我要用名字為你們解說足球",
     "qwenVoiceJada": "風風火火的滬上阿姐",
     "qwenVoiceDylan": "北京胡同裡長大的少年",
     "qwenVoiceLi": "耐心的瑜珈老師",
-    "qwenVoiceMarcus": "面寬話短，心實聲沉——老陝的味道",
+    "qwenVoiceMarcus": "面寬話短，心實聲沉，老陝的味道",
     "qwenVoiceRoy": "詼諧直爽、市井活潑的台灣哥仔形象",
     "qwenVoicePeter": "天津相聲，專業捧哏",
     "qwenVoiceSunny": "甜到你心裡的川妹子",
@@ -1840,7 +1840,7 @@
       "updateKey": "更新金鑰",
       "modelsCount": "{{n}} 個模型",
       "capabilities": "套餐提供的能力",
-      "offeredNote": "此方案提供的模型清單。請在生成介面選擇需要使用的模型——是否可用取決於你的方案檔位，不支援的模型會在生成時報錯。"
+      "offeredNote": "此方案提供的模型清單。請在生成介面選擇需要使用的模型，是否可用取決於你的方案檔位，不支援的模型會在生成時報錯。"
     },
     "skills": {
       "nav": "技能",
@@ -1848,7 +1848,7 @@
       "description": "查看目前帳號已安裝的技能、檢視詳情，或下載為 zip 以便分享與備份。",
       "mySkills": "我的技能",
       "builtinSkills": "內建技能",
-      "emptyMySkills": "還沒有自己的技能——在對話裡讓 agent 從歷史建立一個。",
+      "emptyMySkills": "還沒有自己的技能，在對話裡讓 agent 從歷史建立一個。",
       "emptyBuiltinSkills": "暫無內建技能。",
       "listFailed": "技能列表載入失敗",
       "retry": "重試",

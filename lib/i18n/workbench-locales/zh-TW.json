@@ -64,7 +64,7 @@
       "errRejected": "伺服器拒絕了這次上傳",
       "mySkills": "我的 skill",
       "builtinSkills": "內建 skill",
-      "emptyMySkills": "還沒有自己的 skill——上傳一個 zip，或在對話裡讓 agent 從歷史建立。",
+      "emptyMySkills": "還沒有自己的 skill，上傳一個 zip，或在對話裡讓 agent 從歷史建立。",
       "newUpload": "新上傳",
       "refsNote": "· 含 {{count}} 個參考文件",
       "downloadLabel": "下載",

@@ -64,7 +64,7 @@
       "errRejected": "サーバーがこのアップロードを拒否しました",
       "mySkills": "マイスキル",
       "builtinSkills": "内蔵スキル",
-      "emptyMySkills": "まだ自分のスキルがありません——zipをアップロードするか、チャットでエージェントに履歴から作成させましょう。",
+      "emptyMySkills": "まだ自分のスキルがありません、zipをアップロードするか、チャットでエージェントに履歴から作成させましょう。",
       "newUpload": "新規",
       "refsNote": "· 参考ドキュメント{{count}}件",
       "downloadLabel": "ダウンロード",

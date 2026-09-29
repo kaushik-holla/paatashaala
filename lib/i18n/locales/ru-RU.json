@@ -77,7 +77,7 @@
     "videoTooLarge": "Размер архива экспорта превышает ограничение сервиса.",
     "videoWarnings": "Отсутствует ресурсов: {{assets}}; проблем в отчёте об экспорте: {{diagnostics}}.",
     "videoMp4Success": "Видео отрендерено",
-    "videoServiceUnavailable": "Сервис рендеринга не настроен — ZIP проекта загружен для локального рендеринга.",
+    "videoServiceUnavailable": "Сервис рендеринга не настроен, ZIP проекта загружен для локального рендеринга.",
     "videoResolution": "Разрешение",
     "videoFps": "Частота кадров",
     "videoQuality": "Качество",
@@ -105,7 +105,7 @@
     "subtitlesEmpty": "Нет закадрового текста для субтитров",
     "subtitlesFailed": "Не удалось скачать субтитры",
     "noSlides": "Нет слайдов для экспорта",
-    "noSlidesSkipped": "В этом курсе нет слайдов — PPTX пропущен",
+    "noSlidesSkipped": "В этом курсе нет слайдов, PPTX пропущен",
     "nothingToExport": "Нет данных для экспорта"
   },
   "import": {
@@ -237,7 +237,7 @@
     "exitFullscreen": "Свернуть",
     "editCourse": "Редактировать курс",
     "doneEditing": "Завершить редактирование",
-    "proModeDisabledHint": "Редактирование недоступно на этой странице — откройте слайд курса, чтобы редактировать в Pro-режиме."
+    "proModeDisabledHint": "Редактирование недоступно на этой странице, откройте слайд курса, чтобы редактировать в Pro-режиме."
   },
   "edit": {
     "proMode": "Pro",
@@ -490,7 +490,7 @@
       "placeholder": "Опишите изменения для этого слайда…",
       "stop": "Остановить генерацию",
       "empty": {
-        "lead": "Tell me how to change this slide — I'll redo the content and re-align the narration.",
+        "lead": "Tell me how to change this slide, I'll redo the content and re-align the narration.",
         "boundary": "For fine-grained edits use the editor; add / delete / reorder slides from the left nav.",
         "comingSoon": "More capabilities coming soon."
       },
@@ -522,7 +522,7 @@
       "interactive": {
         "boundary": "Я вношу точечные исправления на странице и не пересоздаю её целиком. Переключайте сцены через навигацию слева.",
         "emptyTitle": "Что нужно исправить на этой странице?",
-        "lead": "Опишите ошибку на этой интерактивной странице — например, кнопку, которая не реагирует, — и я исправлю только её, сохранив всё остальное.",
+        "lead": "Опишите ошибку на этой интерактивной странице, например, кнопку, которая не реагирует,, и я исправлю только её, сохранив всё остальное.",
         "placeholder": "Опишите ошибку на этой интерактивной странице…"
       },
       "thinking": "Думаю…",
@@ -558,7 +558,7 @@
     },
     "picker": {
       "title": "Вставить действие",
-      "speechDesc": "Произнести реплику — можно озвучить автоматически",
+      "speechDesc": "Произнести реплику, можно озвучить автоматически",
       "spotlightDesc": "Выделить элемент на холсте",
       "laserDesc": "Указать на элемент лазером",
       "discussionDesc": "Задать вопрос и выбрать, кто начнёт"
@@ -581,8 +581,8 @@
       "collapse": "Свернуть",
       "noElements": "На этом слайде нет элементов для выбора.",
       "bindHint": "Нажмите на подсвеченный элемент на холсте для привязки",
-      "refCapHint": "Достигнут предел — уберите один, чтобы заменить · Esc — готово",
-      "refHint": "Нажмите, чтобы добавить или убрать · Esc — готово",
+      "refCapHint": "Достигнут предел, уберите один, чтобы заменить · Esc, готово",
+      "refHint": "Нажмите, чтобы добавить или убрать · Esc, готово",
       "refLead": "Ссылки на элементы · {{count}}/{{max}}"
     },
     "regen": {
@@ -648,7 +648,7 @@
       "startPicking": "Ссылка на элементы"
     },
     "dock": {
-      "elementRefHint": "Ссылки на элементы — выберите элементы для следующего сообщения",
+      "elementRefHint": "Ссылки на элементы, выберите элементы для следующего сообщения",
       "globalTools": "Общие инструменты"
     }
   },
@@ -662,9 +662,9 @@
     },
     "quizScoreLabel": "Верно {{correct}} из {{total}}",
     "encouragement": {
-      "high": "Отлично — вы справились!",
-      "mid": "Хорошая работа — продолжайте.",
-      "low": "Неплохое начало — повторите ещё раз."
+      "high": "Отлично, вы справились!",
+      "mid": "Хорошая работа, продолжайте.",
+      "low": "Неплохое начало, повторите ещё раз."
     }
   },
   "whiteboard": {
@@ -691,7 +691,7 @@
     "totalPrefix": "",
     "pointsSuffix": "б.",
     "startQuiz": "Начать тест",
-    "multipleChoiceHint": "(Множественный выбор — выберите все правильные ответы)",
+    "multipleChoiceHint": "(Множественный выбор, выберите все правильные ответы)",
     "inputPlaceholder": "Введите ваш ответ...",
     "charCount": "символов",
     "yourAnswer": "Ваш ответ:",
@@ -751,7 +751,7 @@
         "continueProject": "Продолжить проект",
         "resetProgress": "Сбросить прогресс обучения",
         "resetConfirmTitle": "Сбросить прогресс обучения?",
-        "resetConfirmDescription": "Это удалит весь прогресс по проекту — историю чата, отправленные работы и статусы этапов — и вы начнёте заново. Это действие нельзя отменить.",
+        "resetConfirmDescription": "Это удалит весь прогресс по проекту, историю чата, отправленные работы и статусы этапов, и вы начнёте заново. Это действие нельзя отменить.",
         "resetConfirmConfirm": "Сбросить",
         "resetConfirmCancel": "Отмена",
         "startHint": "Нажмите, чтобы войти в рабочее пространство. {{name}} проведёт вас через каждый этап.",
@@ -791,7 +791,7 @@
         "placeholderCompleted": "Проект завершён. Посмотрите отчёт.",
         "send": "Отправить",
         "voiceInput": "Голосовой ввод",
-        "keyboardHint": "Enter — отправить · Shift+Enter — новая строка",
+        "keyboardHint": "Enter, отправить · Shift+Enter, новая строка",
         "readingSubmission": "Чтение ответа…",
         "generatingMilestoneFeedback": "Генерация отзыва по этапу…",
         "generatingFinalEval": "Генерация итоговой оценки…",
@@ -802,7 +802,7 @@
         "choosePrompt": "Выберите вариант",
         "choiceOrType": "Выберите или напишите своё…",
         "suggestionsToggle": "Нужны идеи? Посмотрите варианты ответа",
-        "guidancePointer": "Не знаете, что сказать? Цель и подсказки этой сцены — на панели справа.",
+        "guidancePointer": "Не знаете, что сказать? Цель и подсказки этой сцены, на панели справа.",
         "roleplayHistoryTitle": "История ролевого этапа",
         "coachHint": "Подсказка тренера",
         "thinking": "{{name}} · Думает",
@@ -830,7 +830,7 @@
         "continueHint": "Нажмите Continue, чтобы перейти к следующему этапу.",
         "alreadyEntered": "Следующий этап начат",
         "continueToNext": "Перейти к следующему этапу",
-        "projectAlmostDone": "🎉 Проект почти завершён — ожидание отчёта"
+        "projectAlmostDone": "🎉 Проект почти завершён, ожидание отчёта"
       },
       "taskEvalCard": {
         "title": "Отзыв на отправленное",
@@ -838,7 +838,7 @@
         "improvements": "Над чем поработать"
       },
       "briefing": {
-        "intro": "Вводная из этапа подготовки — здесь её можно открыть в любой момент сцены.",
+        "intro": "Вводная из этапа подготовки, здесь её можно открыть в любой момент сцены.",
         "tablistLabel": "Вкладки правой панели",
         "submissionTab": "Отправка",
         "briefingTab": "Сводка",
@@ -875,7 +875,7 @@
         "hints": "Подсказки",
         "submitOutput": "Отправить",
         "evaluating": "Оценка ответа...",
-        "lockedWhileStreaming": "Наставник отвечает — подождите, прежде чем отправлять.",
+        "lockedWhileStreaming": "Наставник отвечает, подождите, прежде чем отправлять.",
         "evalFailed": "Ошибка оценки: {{error}}",
         "submittedCount": "Отправлено: {{count}}",
         "submissionHistory": "История отправок",
@@ -915,7 +915,7 @@
         "coreStageBadge": "Ключевой",
         "conceptsInStageLabel": "Освоены концепции:",
         "submissionsInStage": "Отправлено работ: {{count}}",
-        "coreConceptGrasp": "Ключевая концепция «{{concept}}» — {{quality}}",
+        "coreConceptGrasp": "Ключевая концепция «{{concept}}», {{quality}}",
         "stageNoData": "Нет записанных результатов в этом этапе.",
         "highlightsTitle": "Ваши достижения",
         "scenario": {
@@ -925,7 +925,7 @@
           "statGoals": "Целей достигнуто",
           "statActs": "Завершено актов",
           "goalReviewTitle": "Разбор по актам",
-          "goalReviewHint": "В этом сценарии для каждого акта заданы несколько ключевых целей. Вот разбор по тому, как прошёл ваш диалог — в этот раз вы достигли {{achieved}} из {{total}}.",
+          "goalReviewHint": "В этом сценарии для каждого акта заданы несколько ключевых целей. Вот разбор по тому, как прошёл ваш диалог, в этот раз вы достигли {{achieved}} из {{total}}.",
           "goalListTitle": "Что требовал от вас каждый акт",
           "goalListHint": "В этом сценарии для каждого акта заданы несколько ключевых целей. Вот обзор того, что требовалось сделать в каждом акте.",
           "goalAchieved": "достигнуто",
@@ -942,9 +942,9 @@
           "castLabel": "Вы общались с: {{names}}"
         },
         "highlight": {
-          "independence": "Вы самостоятельно показали {{unlocks}}/{{total}} концепций — без подсказок. Отличное понимание.",
-          "resilience": "На этапе «{{title}}» вы преодолели {{errors}} ошибок — настоящая стойкость.",
-          "resilienceGeneral": "Вы преодолели {{errors}} ошибок — настоящая стойкость.",
+          "independence": "Вы самостоятельно показали {{unlocks}}/{{total}} концепций, без подсказок. Отличное понимание.",
+          "resilience": "На этапе «{{title}}» вы преодолели {{errors}} ошибок, настоящая стойкость.",
+          "resilienceGeneral": "Вы преодолели {{errors}} ошибок, настоящая стойкость.",
           "completion": "Все задания выполнены. Уверенный прогресс."
         },
         "synthesisQuality": {
@@ -1006,7 +1006,7 @@
     "folderDeleteFailed": "Не удалось удалить папку",
     "moveFailed": "Не удалось переместить курс",
     "emptyFolderHint": "Эта папка пуста",
-    "emptyLibraryHint": "Курсов пока нет — создайте выше или импортируйте курс.",
+    "emptyLibraryHint": "Курсов пока нет, создайте выше или импортируйте курс.",
     "folderNameEmpty": "Название папки не может быть пустым",
     "deleteFolderOnly": "Удалить только папку",
     "deleteFolderAndCourses": "Удалить папку и {{count}} курс",
@@ -1020,7 +1020,7 @@
   },
   "upload": {
     "pdfSizeLimit": "Поддержка PDF до 50 МБ",
-    "courseMaterialSizeLimit": "Документы, презентации, таблицы, изображения, текст — до 50 МБ (список форматов зависит от выбранного парсера)",
+    "courseMaterialSizeLimit": "Документы, презентации, таблицы, изображения, текст, до 50 МБ (список форматов зависит от выбранного парсера)",
     "generateFailed": "Ошибка генерации, попробуйте снова",
     "requirementPlaceholder": "Расскажите, что вы хотите изучить, например:\n\"Научи меня Python с нуля за 30 минут\"\n\"Объясни преобразование Фурье на доске\"\n\"Как играть в настольную игру Авалон\"",
     "requirementRequired": "Пожалуйста, укажите требования к курсу",
@@ -1173,7 +1173,7 @@
     "testConnectionDesc": "Проверить доступность текущей конфигурации API",
     "testing": "Тестирование...",
     "agentSettings": "Настройки агентов",
-    "agentSettingsDesc": "Выберите агентов для участия в беседе. Выберите 1 для режима одного агента, несколько — для совместного режима.",
+    "agentSettingsDesc": "Выберите агентов для участия в беседе. Выберите 1 для режима одного агента, несколько, для совместного режима.",
     "agentMode": "Режим агентов",
     "agentModePreset": "Предустановка",
     "agentModeAuto": "Автогенерация",
@@ -1284,7 +1284,7 @@
     "comfyuiAddWorkflowPrefix": "Добавьте файл",
     "comfyuiAddWorkflowSuffix": "чтобы начать.",
     "comfyuiFolderHintPrefix": "Поместите JSON-файлы рабочих процессов в папку",
-    "comfyuiFolderHintMiddle": "Имя файла становится отображаемым именем — например",
+    "comfyuiFolderHintMiddle": "Имя файла становится отображаемым именем, например",
     "comfyuiLoadError": "Не удалось загрузить рабочие процессы: {error}",
     "addModel": "Добавить",
     "reset": "Сброс",
@@ -1373,8 +1373,8 @@
     "audioSettings": "Настройки аудио",
     "ttsSection": "Синтез речи (TTS)",
     "asrSection": "Распознавание речи (ASR)",
-    "ttsDescription": "TTS (Text-to-Speech) — преобразование текста в речь",
-    "asrDescription": "ASR (Automatic Speech Recognition) — преобразование речи в текст",
+    "ttsDescription": "TTS (Text-to-Speech), преобразование текста в речь",
+    "asrDescription": "ASR (Automatic Speech Recognition), преобразование речи в текст",
     "enableTTS": "Включить синтез речи",
     "ttsEnabledDescription": "При включении аудио будет генерироваться во время создания курса",
     "ttsVoiceConfigHint": "Голос для каждого агента можно настроить в «Настройке ролей» на главной странице",
@@ -1502,8 +1502,8 @@
     "noTranscriptionResult": "Нет результата транскрибирования",
     "baseUrlOptional": "Base URL (необязательно)",
     "defaultValue": "По умолчанию",
-    "voiceMarin": "Рекомендуется — лучшее качество",
-    "voiceCedar": "Рекомендуется — лучшее качество",
+    "voiceMarin": "Рекомендуется, лучшее качество",
+    "voiceCedar": "Рекомендуется, лучшее качество",
     "voiceAlloy": "Нейтральный, сбалансированный",
     "voiceAsh": "Спокойный, профессиональный",
     "voiceBallad": "Элегантный, лиричный",
@@ -1564,7 +1564,7 @@
     "qwenVoiceJada": "Живая шанхайская леди",
     "qwenVoiceDylan": "Пекинский парень",
     "qwenVoiceLi": "Терпеливый инструктор йоги",
-    "qwenVoiceMarcus": "Твёрдое сердце — вкус старого Шаньси",
+    "qwenVoiceMarcus": "Твёрдое сердце, вкус старого Шаньси",
     "qwenVoiceRoy": "Юморной тайваньский парень",
     "qwenVoicePeter": "Тяньцзиньский комик",
     "qwenVoiceSunny": "Милая сычуаньская девушка",
@@ -1690,10 +1690,10 @@
     "pdfFeatures": "Поддерживаемые функции",
     "pdfApiKey": "API-ключ",
     "pdfBaseUrl": "Base URL",
-    "mineruDescription": "MinerU — коммерческий сервис обработки PDF с поддержкой извлечения таблиц, распознавания формул и анализа макета.",
+    "mineruDescription": "MinerU, коммерческий сервис обработки PDF с поддержкой извлечения таблиц, распознавания формул и анализа макета.",
     "mineruApiKeyRequired": "Перед использованием необходимо получить API-ключ на сайте MinerU.",
     "mineruWarning": "Внимание",
-    "mineruCostWarning": "MinerU — коммерческий сервис, использование может быть платным. Проверьте цены на сайте MinerU.",
+    "mineruCostWarning": "MinerU, коммерческий сервис, использование может быть платным. Проверьте цены на сайте MinerU.",
     "enterMinerUApiKey": "Введите MinerU API-ключ",
     "mineruLocalDescription": "MinerU поддерживает локальное развёртывание с расширенной обработкой PDF (таблицы, формулы, анализ макета). Требуется предварительное развёртывание сервиса MinerU.",
     "mineruServerAddress": "Адрес локального сервера MinerU (напр., http://localhost:8080)",
@@ -1769,7 +1769,7 @@
     "ttsProviderEnabledHint": "Если выключено, провайдер скрыт из выбора голоса и не назначается автоматически.",
     "ttsProviderUnavailableHint": "Сначала настройте этого провайдера, затем включите.",
     "ttsProviderDisabledByAdmin": "Этот провайдер отключён администратором сервера и не может быть включён.",
-    "optionalOverride": "Необязательно — оставьте пустым для серверной конфигурации",
+    "optionalOverride": "Необязательно, оставьте пустым для серверной конфигурации",
     "setupNeeded": "Требуется настройка",
     "modelNotConfigured": "Пожалуйста, выберите модель для начала работы",
     "dangerZone": "Опасная зона",
@@ -1785,7 +1785,7 @@
     "clearCacheFailed": "Не удалось очистить кэш, попробуйте снова",
     "clearCacheBlockedByOtherTabs": "Закройте другие вкладки приложения и попробуйте снова.",
     "persistUnavailable": "Изменения не сохраняются: приложению не удаётся получить доступ к сохранённым данным. Если перезагрузка не помогает, очистите локальный кэш в настройках.",
-    "persistChangesLost": "Хранилище снова работает, но изменения, сделанные во время сбоя, сохранить не удалось — они заменены последней сохранённой версией.",
+    "persistChangesLost": "Хранилище снова работает, но изменения, сделанные во время сбоя, сохранить не удалось, они заменены последней сохранённой версией.",
     "webSearchSettings": "Веб-поиск",
     "webSearchApiKey": "API-ключ поиска",
     "webSearchApiKeyPlaceholder": "Введите API-ключ поиска",
@@ -1818,7 +1818,7 @@
     },
     "fetchModels": "Fetch Models",
     "fetchModelsResult": "Fetched {total} models, added {added}",
-    "fetchModelsNoEndpoint": "This provider has no model list endpoint — add models manually",
+    "fetchModelsNoEndpoint": "This provider has no model list endpoint, add models manually",
     "fetchModelsAuthError": "API key is invalid or expired",
     "fetchModelsFailed": "Failed to fetch models",
     "usage": {
@@ -1848,14 +1848,14 @@
     "tokenPlan": {
       "nav": "Token Plan",
       "title": "Token Plan Setup",
-      "desc": "Pick your token plan provider and enter the key — it auto-configures every adapted modality (LLM/image/video/speech/web search).",
+      "desc": "Pick your token plan provider and enter the key, it auto-configures every adapted modality (LLM/image/video/speech/web search).",
       "selectPlan": "Select Provider",
       "apiKey": "API Key",
       "enable": "Enable",
       "updateKey": "Update key",
       "modelsCount": "{{n}} models",
       "capabilities": "Capabilities offered",
-      "offeredNote": "Models offered by this plan. Pick the ones you want on the generation bar — availability depends on your plan tier, and unsupported models will error at generation time."
+      "offeredNote": "Models offered by this plan. Pick the ones you want on the generation bar, availability depends on your plan tier, and unsupported models will error at generation time."
     },
     "skills": {
       "nav": "Навыки",
@@ -1863,7 +1863,7 @@
       "description": "Просматривайте навыки, установленные для вашей учётной записи, изучайте навык и скачивайте его в виде zip для обмена или резервной копии.",
       "mySkills": "Мои навыки",
       "builtinSkills": "Встроенные навыки",
-      "emptyMySkills": "Своих навыков пока нет — попросите агента в чате создать один из истории.",
+      "emptyMySkills": "Своих навыков пока нет, попросите агента в чате создать один из истории.",
       "emptyBuiltinSkills": "Встроенные навыки недоступны.",
       "listFailed": "Не удалось загрузить список навыков",
       "retry": "Повторить",
@@ -1957,7 +1957,7 @@
     "expandClassroom": "Classroom",
     "readOnlyBadge": "Read-only",
     "noCourseTitle": "No course open",
-    "noCourseHint": "Откройте по ссылке на курс в переписке или выберите курс в списке слева — переписка останется на месте",
+    "noCourseHint": "Откройте по ссылке на курс в переписке или выберите курс в списке слева, переписка останется на месте",
     "resizeChatAria": "Drag to resize the conversation pane",
     "firstPageLanding": "The first page is landing…",
     "autoSaving": "Автосохранение…",
@@ -1989,9 +1989,9 @@
     "defaultNickname": "Ученик",
     "chooseAvatar": "Выбрать аватар",
     "uploadAvatar": "Загрузить",
-    "bioPlaceholder": "Расскажите о себе — AI-учитель адаптирует уроки под ваш уровень...",
+    "bioPlaceholder": "Расскажите о себе, AI-учитель адаптирует уроки под ваш уровень...",
     "avatarHint": "Ваш аватар будет отображаться в обсуждениях и чатах",
-    "fileTooLarge": "Изображение слишком большое — выберите файл до 5 МБ",
+    "fileTooLarge": "Изображение слишком большое, выберите файл до 5 МБ",
     "invalidFileType": "Пожалуйста, выберите файл изображения",
     "editTooltip": "Нажмите для редактирования профиля"
   },

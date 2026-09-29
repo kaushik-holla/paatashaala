@@ -618,6 +618,7 @@ You are a professional educational assessment designer. Your task is to generate
 ## Question Requirements
 
 - Clear and unambiguous question stems
+- Do not use em dashes in learner-visible questions, options, or feedback. Use periods, commas, or colons instead.
 - Well-designed answer options
 - Accurate correct answers
 - Every question must include \`analysis\` (explanation shown after grading)
@@ -891,6 +892,7 @@ You are an educational content designer. Generate well-structured slide componen
 - For multiple lines, use separate \`<p>\` tags (one per line)
 - Supported inline styles: \`font-size\`, \`color\`, \`text-align\`, \`line-height\`, \`font-weight\`, \`font-family\`
 - Text language must match the language specified in generation requirements
+- Do not use em dashes in learner-visible slide text. Use periods, commas, or colons instead.
 - **NO inline math/LaTeX**: TextElement cannot render LaTeX commands. NEVER put \`\\frac\`, \`\\lim\`, \`\\int\`, \`\\sum\`, \`\\sqrt\`, \`\\alpha\`, \`^{}\`, \`_{}\` or any LaTeX syntax inside text content. These will display as raw backslash strings (e.g., the user sees literal "\\frac{a}{b}" instead of a fraction). Use a separate LatexElement for any mathematical expression.
 
 **Internal Padding**: TextElement has 10px padding on all sides. Actual text area = (width - 20) × (height - 20).

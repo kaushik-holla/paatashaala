@@ -77,7 +77,7 @@
     "videoTooLarge": "O arquivo de exportação excede o limite de tamanho do serviço.",
     "videoWarnings": "{{assets}} recurso(s) ausente(s) e {{diagnostics}} problema(s) no relatório de exportação.",
     "videoMp4Success": "Vídeo renderizado",
-    "videoServiceUnavailable": "Serviço de renderização não configurado — o ZIP do projeto foi baixado para renderização local.",
+    "videoServiceUnavailable": "Serviço de renderização não configurado, o ZIP do projeto foi baixado para renderização local.",
     "videoResolution": "Resolução",
     "videoFps": "Taxa de quadros",
     "videoQuality": "Qualidade",
@@ -105,7 +105,7 @@
     "subtitlesEmpty": "Nenhuma narração para gerar legendas",
     "subtitlesFailed": "Falha ao baixar legendas",
     "noSlides": "Não há slides para exportar",
-    "noSlidesSkipped": "Este curso não tem slides — PPTX ignorado",
+    "noSlidesSkipped": "Este curso não tem slides, PPTX ignorado",
     "nothingToExport": "Nada para exportar"
   },
   "import": {
@@ -475,7 +475,7 @@
       "placeholder": "Descreva suas alterações neste slide…",
       "stop": "Parar geração",
       "empty": {
-        "lead": "Tell me how to change this slide — I'll redo the content and re-align the narration.",
+        "lead": "Tell me how to change this slide, I'll redo the content and re-align the narration.",
         "boundary": "For fine-grained edits use the editor; add / delete / reorder slides from the left nav.",
         "comingSoon": "More capabilities coming soon."
       },
@@ -507,7 +507,7 @@
       "interactive": {
         "boundary": "Faço correções pontuais na página; não recrio a página inteira. Troque de cena pela navegação à esquerda.",
         "emptyTitle": "O que precisa ser corrigido nesta página?",
-        "lead": "Descreva um bug nesta página interativa — por exemplo, um botão que não faz nada — e eu corrijo apenas isso, mantendo o resto.",
+        "lead": "Descreva um bug nesta página interativa, por exemplo, um botão que não faz nada, e eu corrijo apenas isso, mantendo o resto.",
         "placeholder": "Descreva o bug desta página interativa…"
       },
       "thinking": "Pensando…",
@@ -543,7 +543,7 @@
     },
     "picker": {
       "title": "Inserir ação",
-      "speechDesc": "Fale uma frase — pode ter narração automática",
+      "speechDesc": "Fale uma frase, pode ter narração automática",
       "spotlightDesc": "Destacar um elemento na tela",
       "laserDesc": "Apontar um laser para um elemento",
       "discussionDesc": "Faça uma pergunta e escolha quem inicia"
@@ -566,7 +566,7 @@
       "collapse": "Recolher",
       "noElements": "Nenhum elemento localizável neste slide.",
       "bindHint": "Clique em um elemento destacado no canvas para vincular",
-      "refCapHint": "Limite atingido — remova um para trocar · Esc para concluir",
+      "refCapHint": "Limite atingido, remova um para trocar · Esc para concluir",
       "refHint": "Clique para adicionar ou remover · Esc para concluir",
       "refLead": "Referenciando elementos · {{count}}/{{max}}"
     },
@@ -633,7 +633,7 @@
       "startPicking": "Referenciar elementos"
     },
     "dock": {
-      "elementRefHint": "Referências de elementos — escolha elementos para enviar na próxima mensagem",
+      "elementRefHint": "Referências de elementos, escolha elementos para enviar na próxima mensagem",
       "globalTools": "Ferramentas globais"
     }
   },
@@ -650,7 +650,7 @@
     "exitFullscreen": "Sair da tela cheia",
     "editCourse": "Editar curso",
     "doneEditing": "Concluir edição",
-    "proModeDisabledHint": "A edição não está disponível nesta página — abra um slide do curso para editar no modo Pro."
+    "proModeDisabledHint": "A edição não está disponível nesta página, abra um slide do curso para editar no modo Pro."
   },
   "classroomComplete": {
     "title": "Curso concluído",
@@ -662,9 +662,9 @@
     },
     "quizScoreLabel": "{{correct}} de {{total}} corretas",
     "encouragement": {
-      "high": "Excelente — você arrasou!",
-      "mid": "Bom trabalho — continue assim.",
-      "low": "Um bom começo — revise e tente novamente."
+      "high": "Excelente, você arrasou!",
+      "mid": "Bom trabalho, continue assim.",
+      "low": "Um bom começo, revise e tente novamente."
     }
   },
   "whiteboard": {
@@ -691,7 +691,7 @@
     "totalPrefix": "",
     "pointsSuffix": "pts",
     "startQuiz": "Iniciar Questionário",
-    "multipleChoiceHint": "(Múltipla escolha — selecione todas as alternativas corretas)",
+    "multipleChoiceHint": "(Múltipla escolha, selecione todas as alternativas corretas)",
     "inputPlaceholder": "Digite sua resposta aqui...",
     "charCount": "caracteres",
     "yourAnswer": "Sua resposta:",
@@ -751,7 +751,7 @@
         "continueProject": "Continuar projeto",
         "resetProgress": "Redefinir progresso de aprendizagem",
         "resetConfirmTitle": "Redefinir o progresso de aprendizagem?",
-        "resetConfirmDescription": "Isso apaga todo o progresso deste projeto — histórico de conversa, envios e status das etapas — e você começará do zero. Esta ação não pode ser desfeita.",
+        "resetConfirmDescription": "Isso apaga todo o progresso deste projeto, histórico de conversa, envios e status das etapas, e você começará do zero. Esta ação não pode ser desfeita.",
         "resetConfirmConfirm": "Redefinir",
         "resetConfirmCancel": "Cancelar",
         "startHint": "Click to enter the workspace. {{name}} will guide you through each stage.",
@@ -830,7 +830,7 @@
         "continueHint": "Click Continue to enter the next stage.",
         "alreadyEntered": "Next stage entered",
         "continueToNext": "Continue to Next Stage",
-        "projectAlmostDone": "🎉 Project almost done — awaiting completion report"
+        "projectAlmostDone": "🎉 Project almost done, awaiting completion report"
       },
       "taskEvalCard": {
         "title": "Submission Feedback",
@@ -864,7 +864,7 @@
         "unsupportedFileType": "Unsupported file type. Only text files (.txt, .md, .csv, .json, .py, …) and PDF are accepted.",
         "pasteTab": "Paste text / image",
         "uploadTab": "Upload file",
-        "pastePlaceholder": "Paste your code, document, answer — or an image / screenshot — here…",
+        "pastePlaceholder": "Paste your code, document, answer, or an image / screenshot, here…",
         "uploadPlaceholder": "Uploaded content will appear here. Edit before submitting…",
         "imageCaptionPlaceholder": "Add an optional caption for this image…",
         "imageSelectedReplace": "Image selected · click to replace",
@@ -875,7 +875,7 @@
         "hints": "Hints",
         "submitOutput": "Submit",
         "evaluating": "Evaluating submission…",
-        "lockedWhileStreaming": "The instructor is replying — please wait before submitting.",
+        "lockedWhileStreaming": "The instructor is replying, please wait before submitting.",
         "evalFailed": "Falha na avaliação: {{error}}",
         "submittedCount": "{{count}} submitted",
         "submissionHistory": "Submission History",
@@ -915,7 +915,7 @@
         "coreStageBadge": "Core",
         "conceptsInStageLabel": "Concepts:",
         "submissionsInStage": "Submitted {{count}} piece(s) of work",
-        "coreConceptGrasp": "Core concept \"{{concept}}\" — {{quality}}",
+        "coreConceptGrasp": "Core concept \"{{concept}}\", {{quality}}",
         "stageNoData": "No recorded output in this stage.",
         "highlightsTitle": "Highlights",
         "scenario": {
@@ -925,7 +925,7 @@
           "statGoals": "Metas atingidas",
           "statActs": "Atos concluídos",
           "goalReviewTitle": "Revisão ato a ato",
-          "goalReviewHint": "Este cenário definiu algumas metas-chave para cada ato. Veja uma retrospectiva de como sua conversa realmente foi — desta vez você atingiu {{achieved}} de {{total}}.",
+          "goalReviewHint": "Este cenário definiu algumas metas-chave para cada ato. Veja uma retrospectiva de como sua conversa realmente foi, desta vez você atingiu {{achieved}} de {{total}}.",
           "goalListTitle": "O que cada ato pediu de você",
           "goalListHint": "Este cenário definiu algumas metas-chave para cada ato. Veja uma retrospectiva do que cada ato pediu que você fizesse.",
           "goalAchieved": "atingida",
@@ -942,9 +942,9 @@
           "castLabel": "Você interagiu com: {{names}}"
         },
         "highlight": {
-          "independence": "You demonstrated {{unlocks}}/{{total}} concepts on your own — no prompting needed. Solid understanding.",
-          "resilience": "In \"{{title}}\" you overcame {{errors}} errors, tackling each one — real grit.",
-          "resilienceGeneral": "You overcame {{errors}} errors, tackling each one — real grit.",
+          "independence": "You demonstrated {{unlocks}}/{{total}} concepts on your own, no prompting needed. Solid understanding.",
+          "resilience": "In \"{{title}}\" you overcame {{errors}} errors, tackling each one, real grit.",
+          "resilienceGeneral": "You overcame {{errors}} errors, tackling each one, real grit.",
           "completion": "You completed every task. Steady progress all the way through."
         },
         "synthesisQuality": {
@@ -1006,7 +1006,7 @@
     "folderDeleteFailed": "Falha ao excluir a pasta",
     "moveFailed": "Falha ao mover o curso",
     "emptyFolderHint": "Esta pasta está vazia",
-    "emptyLibraryHint": "Nenhum curso ainda — crie um acima ou importe um curso.",
+    "emptyLibraryHint": "Nenhum curso ainda, crie um acima ou importe um curso.",
     "folderNameEmpty": "O nome da pasta não pode estar vazio",
     "deleteFolderOnly": "Excluir apenas a pasta",
     "deleteFolderAndCourses": "Excluir pasta e {{count}} curso",
@@ -1020,7 +1020,7 @@
   },
   "upload": {
     "pdfSizeLimit": "Suporta arquivos PDF de até 50 MB",
-    "courseMaterialSizeLimit": "Documentos, apresentações, planilhas, imagens e texto — até 50 MB (formatos aceitos dependem do extrator selecionado)",
+    "courseMaterialSizeLimit": "Documentos, apresentações, planilhas, imagens e texto, até 50 MB (formatos aceitos dependem do extrator selecionado)",
     "generateFailed": "Falha ao gerar a sala, tente novamente",
     "requirementPlaceholder": "Conte-me o que você quer aprender, por exemplo:\n\"Me ensine Python do zero em 30 minutos\"\n\"Explique a Transformada de Fourier no quadro\"\n\"Como jogar o jogo de tabuleiro Avalon\"",
     "requirementRequired": "Por favor, descreva os objetivos do curso",
@@ -1284,7 +1284,7 @@
     "comfyuiAddWorkflowPrefix": "Adicione um arquivo",
     "comfyuiAddWorkflowSuffix": "para começar.",
     "comfyuiFolderHintPrefix": "Coloque os arquivos JSON de fluxo de trabalho na sua pasta",
-    "comfyuiFolderHintMiddle": "O nome do arquivo se torna o nome exibido — ex.",
+    "comfyuiFolderHintMiddle": "O nome do arquivo se torna o nome exibido, ex.",
     "comfyuiLoadError": "Falha ao carregar fluxos de trabalho: {error}",
     "addModel": "Adicionar",
     "reset": "Restaurar",
@@ -1373,8 +1373,8 @@
     "audioSettings": "Configurações de Áudio",
     "ttsSection": "Texto para Fala (TTS)",
     "asrSection": "Reconhecimento Automático de Fala (ASR)",
-    "ttsDescription": "TTS (Texto para Fala) — converte texto em fala",
-    "asrDescription": "ASR (Reconhecimento Automático de Fala) — converte fala em texto",
+    "ttsDescription": "TTS (Texto para Fala), converte texto em fala",
+    "asrDescription": "ASR (Reconhecimento Automático de Fala), converte fala em texto",
     "enableTTS": "Habilitar Texto para Fala",
     "ttsEnabledDescription": "Quando ativado, o áudio de fala será gerado durante a criação do curso",
     "ttsVoiceConfigHint": "A voz por agente pode ser configurada em \"Configuração de Papéis da Sala\" na página inicial",
@@ -1502,8 +1502,8 @@
     "noTranscriptionResult": "Sem resultado de transcrição",
     "baseUrlOptional": "URL Base (opcional)",
     "defaultValue": "Padrão",
-    "voiceMarin": "Recomendada — Melhor Qualidade",
-    "voiceCedar": "Recomendada — Melhor Qualidade",
+    "voiceMarin": "Recomendada, Melhor Qualidade",
+    "voiceCedar": "Recomendada, Melhor Qualidade",
     "voiceAlloy": "Neutra, Equilibrada",
     "voiceAsh": "Firme, Profissional",
     "voiceBallad": "Elegante, Lírica",
@@ -1560,11 +1560,11 @@
     "qwenVoiceLenn": "Jovem alemão racional, de terno, que ouve pós-punk",
     "qwenVoiceEmilien": "Irmão mais velho francês e romântico",
     "qwenVoiceAndre": "Voz masculina magnética, natural e calma",
-    "qwenVoiceRadioGol": "Poeta do futebol — Rádio Gol!",
+    "qwenVoiceRadioGol": "Poeta do futebol, Rádio Gol!",
     "qwenVoiceJada": "Senhora animada de Xangai",
     "qwenVoiceDylan": "Garoto de Pequim",
     "qwenVoiceLi": "Professora paciente de yoga",
-    "qwenVoiceMarcus": "Rosto largo, palavras curtas, coração firme — sotaque típico de Shaanxi",
+    "qwenVoiceMarcus": "Rosto largo, palavras curtas, coração firme, sotaque típico de Shaanxi",
     "qwenVoiceRoy": "Garoto taiwanês bem-humorado e direto",
     "qwenVoicePeter": "Animador profissional de crosstalk de Tianjin",
     "qwenVoiceSunny": "Doce garota de Sichuan",
@@ -1769,7 +1769,7 @@
     "ttsProviderEnabledHint": "Quando desligado, este provedor fica oculto no seletor de voz e nunca é atribuído automaticamente.",
     "ttsProviderUnavailableHint": "Configure este provedor antes de ativá-lo.",
     "ttsProviderDisabledByAdmin": "Este provedor foi desativado pelo administrador do servidor e não pode ser ativado.",
-    "optionalOverride": "Opcional — deixe vazio para usar a configuração do servidor",
+    "optionalOverride": "Opcional, deixe vazio para usar a configuração do servidor",
     "setupNeeded": "Configuração necessária",
     "modelNotConfigured": "Selecione um modelo para começar",
     "dangerZone": "Zona de Perigo",
@@ -1818,7 +1818,7 @@
     },
     "fetchModels": "Fetch Models",
     "fetchModelsResult": "Fetched {total} models, added {added}",
-    "fetchModelsNoEndpoint": "This provider has no model list endpoint — add models manually",
+    "fetchModelsNoEndpoint": "This provider has no model list endpoint, add models manually",
     "fetchModelsAuthError": "API key is invalid or expired",
     "fetchModelsFailed": "Failed to fetch models",
     "usage": {
@@ -1848,14 +1848,14 @@
     "tokenPlan": {
       "nav": "Token Plan",
       "title": "Token Plan Setup",
-      "desc": "Pick your token plan provider and enter the key — it auto-configures every adapted modality (LLM/image/video/speech/web search).",
+      "desc": "Pick your token plan provider and enter the key, it auto-configures every adapted modality (LLM/image/video/speech/web search).",
       "selectPlan": "Select Provider",
       "apiKey": "API Key",
       "enable": "Enable",
       "updateKey": "Update key",
       "modelsCount": "{{n}} models",
       "capabilities": "Capabilities offered",
-      "offeredNote": "Models offered by this plan. Pick the ones you want on the generation bar — availability depends on your plan tier, and unsupported models will error at generation time."
+      "offeredNote": "Models offered by this plan. Pick the ones you want on the generation bar, availability depends on your plan tier, and unsupported models will error at generation time."
     },
     "skills": {
       "nav": "Skills",
@@ -1863,7 +1863,7 @@
       "description": "Navegue pelos skills instalados na sua conta, inspecione um skill e baixe-o como zip para compartilhar ou fazer backup.",
       "mySkills": "Meus skills",
       "builtinSkills": "Skills integrados",
-      "emptyMySkills": "Você ainda não tem skills próprios — peça ao agente, num chat, para criar um a partir do histórico.",
+      "emptyMySkills": "Você ainda não tem skills próprios, peça ao agente, num chat, para criar um a partir do histórico.",
       "emptyBuiltinSkills": "Nenhum skill integrado disponível.",
       "listFailed": "Não foi possível carregar a lista de skills",
       "retry": "Tentar novamente",
@@ -1957,7 +1957,7 @@
     "expandClassroom": "Classroom",
     "readOnlyBadge": "Read-only",
     "noCourseTitle": "No course open",
-    "noCourseHint": "Abra por um link de curso na conversa, ou escolha um na lista à esquerda — a conversa fica onde está",
+    "noCourseHint": "Abra por um link de curso na conversa, ou escolha um na lista à esquerda, a conversa fica onde está",
     "resizeChatAria": "Drag to resize the conversation pane",
     "firstPageLanding": "The first page is landing…",
     "autoSaving": "Salvando automaticamente…",
@@ -1989,9 +1989,9 @@
     "defaultNickname": "Estudante",
     "chooseAvatar": "Escolher Avatar",
     "uploadAvatar": "Enviar",
-    "bioPlaceholder": "Conte um pouco sobre você — o professor de IA vai personalizar as aulas...",
+    "bioPlaceholder": "Conte um pouco sobre você, o professor de IA vai personalizar as aulas...",
     "avatarHint": "Seu avatar aparecerá nas discussões e conversas em sala",
-    "fileTooLarge": "Imagem muito grande — escolha uma com menos de 5 MB",
+    "fileTooLarge": "Imagem muito grande, escolha uma com menos de 5 MB",
     "invalidFileType": "Selecione um arquivo de imagem",
     "editTooltip": "Clique para editar o perfil"
   },

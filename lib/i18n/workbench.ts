@@ -121,7 +121,7 @@ export const workbenchEn = {
       mySkills: 'My skills',
       builtinSkills: 'Built-in skills',
       emptyMySkills:
-        'No skills of your own yet — upload a zip, or ask the agent in a chat to create one from history.',
+        'No skills of your own yet. Upload a zip, or ask the agent in a chat to create one from history.',
       newUpload: 'new',
       refsNote: '· {{count}} reference docs',
       downloadLabel: 'Download',
@@ -422,7 +422,7 @@ export const workbenchZh = {
       retry: '重试',
       mySkills: '我的 skill',
       builtinSkills: '内置 skill',
-      emptyMySkills: '还没有自己的 skill——上传一个 zip，或在对话里让 agent 从历史创建。',
+      emptyMySkills: '还没有自己的 skill，上传一个 zip，或在对话里让 agent 从历史创建。',
       newUpload: '新上传',
       refsNote: '· 含 {{count}} 个参考文档',
       downloadLabel: '下载',

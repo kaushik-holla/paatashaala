@@ -64,7 +64,7 @@
       "errRejected": "Máy chủ đã từ chối lần tải lên này",
       "mySkills": "Skill của tôi",
       "builtinSkills": "Skill tích hợp",
-      "emptyMySkills": "Bạn chưa có skill riêng — tải lên một zip, hoặc nhờ agent trong hội thoại tạo một cái từ lịch sử.",
+      "emptyMySkills": "Bạn chưa có skill riêng, tải lên một zip, hoặc nhờ agent trong hội thoại tạo một cái từ lịch sử.",
       "newUpload": "mới",
       "refsNote": "· {{count}} tài liệu tham khảo",
       "downloadLabel": "Tải xuống",

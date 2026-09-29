@@ -77,7 +77,7 @@
     "videoTooLarge": "导出文件超过服务允许的大小。",
     "videoWarnings": "有 {{assets}} 个素材缺失，导出报告中有 {{diagnostics}} 个问题。",
     "videoMp4Success": "视频已渲染",
-    "videoServiceUnavailable": "未配置渲染服务 —— 已下载项目 ZIP 供本地渲染。",
+    "videoServiceUnavailable": "未配置渲染服务，已下载项目 ZIP 供本地渲染。",
     "videoResolution": "分辨率",
     "videoFps": "帧率",
     "videoQuality": "质量",
@@ -237,7 +237,7 @@
     "exitFullscreen": "退出全屏",
     "editCourse": "编辑课程",
     "doneEditing": "完成编辑",
-    "proModeDisabledHint": "本页不支持编辑——打开任意课程页即可使用 Pro 模式编辑。"
+    "proModeDisabledHint": "本页不支持编辑，打开任意课程页即可使用 Pro 模式编辑。"
   },
   "edit": {
     "proMode": "专业模式",
@@ -648,7 +648,7 @@
       "startPicking": "引用元素"
     },
     "dock": {
-      "elementRefHint": "元素引用 —— 选中元素随下一条消息发给 Agent",
+      "elementRefHint": "元素引用，选中元素随下一条消息发给 Agent",
       "globalTools": "全局工具"
     }
   },
@@ -751,7 +751,7 @@
         "continueProject": "继续做项目",
         "resetProgress": "重置学习进度",
         "resetConfirmTitle": "重置学习进度？",
-        "resetConfirmDescription": "这会清空本项目的全部进度——对话历史、提交内容和各阶段状态，你将从头重新开始。此操作无法撤销。",
+        "resetConfirmDescription": "这会清空本项目的全部进度，对话历史、提交内容和各阶段状态，你将从头重新开始。此操作无法撤销。",
         "resetConfirmConfirm": "确认重置",
         "resetConfirmCancel": "取消",
         "startHint": "点击后会进入工作台，{{name}} 将为你逐步揭晓每个阶段。",
@@ -830,7 +830,7 @@
         "continueHint": "点击 Continue 按钮后，我会再带你进入下一阶段。",
         "alreadyEntered": "已进入下一阶段",
         "continueToNext": "继续到下一阶段",
-        "projectAlmostDone": "🎉 项目即将完成 —— 等待生成结业报告"
+        "projectAlmostDone": "🎉 项目即将完成，等待生成结业报告"
       },
       "taskEvalCard": {
         "title": "本次提交点评",
@@ -915,7 +915,7 @@
         "coreStageBadge": "核心",
         "conceptsInStageLabel": "解锁了概念：",
         "submissionsInStage": "提交了 {{count}} 件作品",
-        "coreConceptGrasp": "核心概念「{{concept}}」——{{quality}}",
+        "coreConceptGrasp": "核心概念「{{concept}}」，{{quality}}",
         "stageNoData": "本阶段没有记录的产出。",
         "highlightsTitle": "你的亮点",
         "scenario": {
@@ -942,9 +942,9 @@
           "castLabel": "你与之互动的角色：{{names}}"
         },
         "highlight": {
-          "independence": "你自主展现了 {{unlocks}}/{{total}} 个概念——不靠追问，自己就表达出来了，理解很扎实。",
-          "resilience": "在「{{title}}」阶段你克服了 {{errors}} 个错误，逐一攻克——韧性强。",
-          "resilienceGeneral": "你克服了 {{errors}} 个错误，逐一攻克——韧性强。",
+          "independence": "你自主展现了 {{unlocks}}/{{total}} 个概念，不靠追问，自己就表达出来了，理解很扎实。",
+          "resilience": "在「{{title}}」阶段你克服了 {{errors}} 个错误，逐一攻克，韧性强。",
+          "resilienceGeneral": "你克服了 {{errors}} 个错误，逐一攻克，韧性强。",
           "completion": "完成了全部任务，每一步都扎实走过。"
         },
         "synthesisQuality": {
@@ -1006,7 +1006,7 @@
     "folderDeleteFailed": "删除文件夹失败",
     "moveFailed": "移动课程失败",
     "emptyFolderHint": "这个文件夹还是空的",
-    "emptyLibraryHint": "还没有课程——在上方创建，或导入一个课程。",
+    "emptyLibraryHint": "还没有课程，在上方创建，或导入一个课程。",
     "folderNameEmpty": "文件夹名不能为空",
     "deleteFolderOnly": "仅删除文件夹",
     "deleteFolderAndCourses": "删除文件夹和 {{count}} 门课程",
@@ -1557,14 +1557,14 @@
     "qwenVoiceDolce": "慵懒的意大利大叔",
     "qwenVoiceSohee": "温柔开朗，情绪丰富的韩国欧尼",
     "qwenVoiceOnoAnna": "鬼灵精怪的青梅竹马",
-    "qwenVoiceLenn": "理性是底色，叛逆藏在细节里——穿西装也听后朋克的德国青年",
+    "qwenVoiceLenn": "理性是底色，叛逆藏在细节里，穿西装也听后朋克的德国青年",
     "qwenVoiceEmilien": "浪漫的法国大哥哥",
     "qwenVoiceAndre": "声音磁性，自然舒服、沉稳男生",
     "qwenVoiceRadioGol": "足球诗人Rádio Gol！今天我要用名字为你们解说足球",
     "qwenVoiceJada": "风风火火的沪上阿姐",
     "qwenVoiceDylan": "北京胡同里长大的少年",
     "qwenVoiceLi": "耐心的瑜伽老师",
-    "qwenVoiceMarcus": "面宽话短，心实声沉——老陕的味道",
+    "qwenVoiceMarcus": "面宽话短，心实声沉，老陕的味道",
     "qwenVoiceRoy": "诙谐直爽、市井活泼的台湾哥仔形象",
     "qwenVoicePeter": "天津相声，专业捧哏",
     "qwenVoiceSunny": "甜到你心里的川妹子",
@@ -1855,7 +1855,7 @@
       "updateKey": "更新密钥",
       "modelsCount": "{{n}} 个模型",
       "capabilities": "套餐提供的能力",
-      "offeredNote": "套餐提供的模型清单。请在生成界面选择需要使用的模型——是否可用取决于你的套餐档位，不支持的模型会在生成时报错。"
+      "offeredNote": "套餐提供的模型清单。请在生成界面选择需要使用的模型，是否可用取决于你的套餐档位，不支持的模型会在生成时报错。"
     },
     "skills": {
       "nav": "技能",
@@ -1863,7 +1863,7 @@
       "description": "查看当前账号已安装的技能，查看详情，或下载为 zip 以便分享和备份。",
       "mySkills": "我的技能",
       "builtinSkills": "内置技能",
-      "emptyMySkills": "还没有自己的技能——在对话里让 agent 从历史创建一个。",
+      "emptyMySkills": "还没有自己的技能，在对话里让 agent 从历史创建一个。",
       "emptyBuiltinSkills": "暂无内置技能。",
       "listFailed": "技能列表加载失败",
       "retry": "重试",
