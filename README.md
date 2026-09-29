@@ -4,6 +4,20 @@ Create a course from a question or your own material, then learn through slides,
 
 Paatashaala is an independent project with its own interface and product direction. Its open-source foundation and license notices are acknowledged in [Credits and license](#credits-and-license).
 
+## See Paatashaala
+
+Start with a topic, then learn by trying things yourself. These are screenshots of the app running locally. The [sample lesson](http://localhost:3000/sample-lesson) works without an AI provider after setup.
+
+**Create a course · light mode**
+
+![Paatashaala home screen in light mode, with a topic prompt and sample lesson link](.github/screenshots/home-light.png)
+
+**Explore a sample lesson · light and dark modes**
+
+| Light mode | Dark mode |
+| --- | --- |
+| <img src=".github/screenshots/sample-light.png" alt="Light mode sample lesson with an interactive budget example" width="680" /> | <img src=".github/screenshots/sample-dark.png" alt="Dark mode sample lesson with an interactive budget example" width="680" /> |
+
 ## What you can do
 
 - Start with a topic, a PDF, or other supported course material.
