@@ -14,6 +14,10 @@ pnpm dev
 
 The [sample lesson](http://localhost:3000/sample-lesson) works without a provider key. For AI features, follow the [README](README.md) and keep real credentials in `.env.local`. Never include credentials, personal course material, or generated user data in a pull request.
 
+## Branch and pull request names
+
+Name branches after the work, using a short prefix such as `feature/`, `fix/`, `docs/`, or `chore/`. For example, use `fix/timeline-scrubbing` or `docs/project-site`. Give each pull request a title that describes the change. Keep assistant and tool branding out of branch names and pull request titles.
+
 ## Make a change
 
 Open an issue for a bug or feature request, or submit a focused pull request against `main`. Describe the user-facing behavior, include screenshots for UI changes, and say what you tested. Update `.env.example` and local setup instructions when adding a configuration setting. Keep user-facing copy in the existing translation system.
