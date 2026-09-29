@@ -77,7 +77,7 @@
     "videoTooLarge": "El archivo de exportación supera el límite de tamaño del servicio.",
     "videoWarnings": "{{assets}} recurso(s) faltante(s) y {{diagnostics}} problema(s) en el reporte de exportación.",
     "videoMp4Success": "Video renderizado",
-    "videoServiceUnavailable": "Servicio de renderizado no configurado — se descargó el ZIP del proyecto para renderizar en tu equipo.",
+    "videoServiceUnavailable": "Servicio de renderizado no configurado, se descargó el ZIP del proyecto para renderizar en tu equipo.",
     "videoResolution": "Resolución",
     "videoFps": "Cuadros por segundo",
     "videoQuality": "Calidad",
@@ -105,7 +105,7 @@
     "subtitlesEmpty": "No hay narración para generar subtítulos",
     "subtitlesFailed": "Error al descargar los subtítulos",
     "noSlides": "No hay diapositivas para exportar",
-    "noSlidesSkipped": "Este curso no tiene diapositivas — se omitió el PPTX",
+    "noSlidesSkipped": "Este curso no tiene diapositivas, se omitió el PPTX",
     "nothingToExport": "Nada que exportar"
   },
   "import": {
@@ -237,7 +237,7 @@
     "exitFullscreen": "Salir de pantalla completa",
     "editCourse": "Editar curso",
     "doneEditing": "Terminar edición",
-    "proModeDisabledHint": "La edición no está disponible en esta página — abre una diapositiva del curso para editar con el modo Pro."
+    "proModeDisabledHint": "La edición no está disponible en esta página, abre una diapositiva del curso para editar con el modo Pro."
   },
   "edit": {
     "proMode": "Pro",
@@ -496,7 +496,7 @@
       },
       "interactive": {
         "emptyTitle": "¿Qué hay que arreglar en esta página?",
-        "lead": "Describe un error de esta página interactiva —p. ej., un botón que no hace nada— y arreglo solo eso, sin tocar lo demás.",
+        "lead": "Describe un error de esta página interactiva, p. ej., un botón que no hace nada, y arreglo solo eso, sin tocar lo demás.",
         "placeholder": "Describe el error de esta página interactiva…",
         "boundary": "Hago correcciones puntuales en la página; no la reconstruyo por completo. Cambia de escena desde el panel izquierdo."
       },
@@ -558,7 +558,7 @@
     },
     "picker": {
       "title": "Insertar acción",
-      "speechDesc": "Di una línea — puede generar voz automática",
+      "speechDesc": "Di una línea, puede generar voz automática",
       "spotlightDesc": "Resalta un elemento en el lienzo",
       "laserDesc": "Apunta con láser a un elemento",
       "discussionDesc": "Plantea una pregunta y elige quién empieza"
@@ -662,9 +662,9 @@
     },
     "quizScoreLabel": "{{correct}} / {{total}} correctas",
     "encouragement": {
-      "high": "Sobresaliente — lo dominaste.",
-      "mid": "Buen trabajo — sigue así.",
-      "low": "Buen comienzo — repasa e inténtalo de nuevo."
+      "high": "Sobresaliente, lo dominaste.",
+      "mid": "Buen trabajo, sigue así.",
+      "low": "Buen comienzo, repasa e inténtalo de nuevo."
     }
   },
   "whiteboard": {
@@ -691,7 +691,7 @@
     "totalPrefix": "",
     "pointsSuffix": "pts",
     "startQuiz": "Iniciar cuestionario",
-    "multipleChoiceHint": "(Opción múltiple — selecciona todas las respuestas correctas)",
+    "multipleChoiceHint": "(Opción múltiple, selecciona todas las respuestas correctas)",
     "inputPlaceholder": "Escribe tu respuesta aquí...",
     "charCount": "caracteres",
     "yourAnswer": "Tu respuesta:",
@@ -751,7 +751,7 @@
         "continueProject": "Continuar proyecto",
         "resetProgress": "Restablecer el progreso de aprendizaje",
         "resetConfirmTitle": "¿Restablecer el progreso de aprendizaje?",
-        "resetConfirmDescription": "Esto borra todo el progreso de este proyecto — historial de chat, entregas y estado de las etapas — y empezarás desde el principio. No se puede deshacer.",
+        "resetConfirmDescription": "Esto borra todo el progreso de este proyecto, historial de chat, entregas y estado de las etapas, y empezarás desde el principio. No se puede deshacer.",
         "resetConfirmConfirm": "Restablecer",
         "resetConfirmCancel": "Cancelar",
         "startHint": "Haz clic para entrar al espacio de trabajo. {{name}} te guiará por cada etapa.",
@@ -830,7 +830,7 @@
         "continueHint": "Haz clic en Continuar para entrar a la siguiente etapa.",
         "alreadyEntered": "Ya entraste a la siguiente etapa",
         "continueToNext": "Continuar a la siguiente etapa",
-        "projectAlmostDone": "🎉 Proyecto casi terminado — en espera del reporte de finalización"
+        "projectAlmostDone": "🎉 Proyecto casi terminado, en espera del reporte de finalización"
       },
       "taskEvalCard": {
         "title": "Retroalimentación de la entrega",
@@ -838,7 +838,7 @@
         "improvements": "Siguientes pasos"
       },
       "briefing": {
-        "intro": "La premisa presentada durante la preparación — la dejamos aquí para que la consultes en cualquier momento durante la escena.",
+        "intro": "La premisa presentada durante la preparación, la dejamos aquí para que la consultes en cualquier momento durante la escena.",
         "tablistLabel": "Pestañas del panel derecho",
         "submissionTab": "Entregar",
         "briefingTab": "Contexto",
@@ -864,7 +864,7 @@
         "unsupportedFileType": "Tipo de archivo no compatible. Solo se aceptan archivos de texto (.txt, .md, .csv, .json, .py, …) y PDF.",
         "pasteTab": "Pegar texto / imagen",
         "uploadTab": "Subir archivo",
-        "pastePlaceholder": "Pega aquí tu código, documento o respuesta — o una imagen / captura de pantalla…",
+        "pastePlaceholder": "Pega aquí tu código, documento o respuesta, o una imagen / captura de pantalla…",
         "uploadPlaceholder": "El contenido subido aparecerá aquí. Edítalo antes de entregar…",
         "imageCaptionPlaceholder": "Agrega una descripción opcional para esta imagen…",
         "imageSelectedReplace": "Imagen seleccionada · haz clic para reemplazar",
@@ -875,7 +875,7 @@
         "hints": "Pistas",
         "submitOutput": "Entregar",
         "evaluating": "Evaluando la entrega…",
-        "lockedWhileStreaming": "El instructor está respondiendo — espera antes de entregar.",
+        "lockedWhileStreaming": "El instructor está respondiendo, espera antes de entregar.",
         "evalFailed": "La evaluación falló: {{error}}",
         "submittedCount": "{{count}} entregas",
         "submissionHistory": "Historial de entregas",
@@ -915,7 +915,7 @@
         "coreStageBadge": "Clave",
         "conceptsInStageLabel": "Conceptos:",
         "submissionsInStage": "Entregaste {{count}} trabajo(s)",
-        "coreConceptGrasp": "Concepto clave \"{{concept}}\" — {{quality}}",
+        "coreConceptGrasp": "Concepto clave \"{{concept}}\", {{quality}}",
         "stageNoData": "Sin resultados registrados en esta etapa.",
         "scenario": {
           "summary": "Completaste los {{acts}} actos de este escenario. Así fue el juego de roles.",
@@ -924,7 +924,7 @@
           "statGoals": "Objetivos cumplidos",
           "statActs": "Actos completados",
           "goalReviewTitle": "Revisión acto por acto",
-          "goalReviewHint": "Este escenario planteó algunos objetivos clave para cada acto. Aquí tienes un repaso de cómo fue realmente tu conversación — esta vez cumpliste {{achieved}} de {{total}}.",
+          "goalReviewHint": "Este escenario planteó algunos objetivos clave para cada acto. Aquí tienes un repaso de cómo fue realmente tu conversación, esta vez cumpliste {{achieved}} de {{total}}.",
           "goalListTitle": "Lo que cada acto te pedía",
           "goalListHint": "Este escenario planteó algunos objetivos clave para cada acto. Aquí tienes un repaso de lo que cada acto te pedía hacer.",
           "goalAchieved": "logrado",
@@ -942,9 +942,9 @@
         },
         "highlightsTitle": "Lo más destacado",
         "highlight": {
-          "independence": "Demostraste {{unlocks}}/{{total}} conceptos por tu cuenta — sin necesidad de ayuda. Comprensión sólida.",
-          "resilience": "En \"{{title}}\" superaste {{errors}} errores, enfrentando cada uno — pura perseverancia.",
-          "resilienceGeneral": "Superaste {{errors}} errores, enfrentando cada uno — pura perseverancia.",
+          "independence": "Demostraste {{unlocks}}/{{total}} conceptos por tu cuenta, sin necesidad de ayuda. Comprensión sólida.",
+          "resilience": "En \"{{title}}\" superaste {{errors}} errores, enfrentando cada uno, pura perseverancia.",
+          "resilienceGeneral": "Superaste {{errors}} errores, enfrentando cada uno, pura perseverancia.",
           "completion": "Completaste todas las tareas. Avance constante de principio a fin."
         },
         "synthesisQuality": {
@@ -1006,7 +1006,7 @@
     "folderDeleteFailed": "Error al eliminar la carpeta",
     "moveFailed": "Error al mover el curso",
     "emptyFolderHint": "Esta carpeta está vacía",
-    "emptyLibraryHint": "Aún no hay cursos — crea uno arriba o importa un curso.",
+    "emptyLibraryHint": "Aún no hay cursos, crea uno arriba o importa un curso.",
     "folderNameEmpty": "El nombre de la carpeta no puede estar vacío",
     "deleteFolderOnly": "Solo eliminar carpeta",
     "deleteFolderAndCourses": "Eliminar carpeta y {{count}} curso",
@@ -1020,7 +1020,7 @@
   },
   "upload": {
     "pdfSizeLimit": "Admite archivos PDF de hasta 50 MB",
-    "courseMaterialSizeLimit": "Documentos, diapositivas, hojas de cálculo, imágenes y texto plano — hasta 50 MB (los formatos aceptados dependen del extractor seleccionado)",
+    "courseMaterialSizeLimit": "Documentos, diapositivas, hojas de cálculo, imágenes y texto plano, hasta 50 MB (los formatos aceptados dependen del extractor seleccionado)",
     "generateFailed": "No se pudo generar el aula, inténtalo de nuevo",
     "requirementPlaceholder": "Dime qué quieres aprender, p. ej.\n\"Enséñame Python desde cero en 30 minutos\"\n\"Explica la transformada de Fourier en el pizarrón\"\n\"Cómo jugar el juego de mesa Avalon\"",
     "requirementRequired": "Ingresa los requisitos del curso",
@@ -1769,7 +1769,7 @@
     "ttsProviderEnabledHint": "Al desactivarlo, este proveedor se oculta del selector de voces y nunca se asigna automáticamente.",
     "ttsProviderUnavailableHint": "Configura este proveedor antes de habilitarlo.",
     "ttsProviderDisabledByAdmin": "Este proveedor fue deshabilitado por el administrador del servidor y no puede habilitarse.",
-    "optionalOverride": "Opcional — déjalo vacío para usar la configuración del servidor",
+    "optionalOverride": "Opcional, déjalo vacío para usar la configuración del servidor",
     "setupNeeded": "Configuración requerida",
     "modelNotConfigured": "Selecciona un modelo para comenzar",
     "dangerZone": "Zona de peligro",
@@ -1818,7 +1818,7 @@
     },
     "fetchModels": "Obtener modelos",
     "fetchModelsResult": "Se obtuvieron {total} modelos, se agregaron {added}",
-    "fetchModelsNoEndpoint": "Este proveedor no tiene endpoint de lista de modelos — agrega los modelos manualmente",
+    "fetchModelsNoEndpoint": "Este proveedor no tiene endpoint de lista de modelos, agrega los modelos manualmente",
     "fetchModelsAuthError": "La clave API no es válida o expiró",
     "fetchModelsFailed": "No se pudieron obtener los modelos",
     "usage": {
@@ -1848,14 +1848,14 @@
     "tokenPlan": {
       "nav": "Plan de tokens",
       "title": "Configuración del plan de tokens",
-      "desc": "Elige tu proveedor de plan de tokens e ingresa la clave — se autoconfigura cada modalidad adaptada (LLM/imagen/video/voz/búsqueda web).",
+      "desc": "Elige tu proveedor de plan de tokens e ingresa la clave, se autoconfigura cada modalidad adaptada (LLM/imagen/video/voz/búsqueda web).",
       "selectPlan": "Seleccionar proveedor",
       "apiKey": "Clave API",
       "enable": "Habilitar",
       "updateKey": "Actualizar clave",
       "modelsCount": "{{n}} modelos",
       "capabilities": "Capacidades ofrecidas",
-      "offeredNote": "Modelos que ofrece este plan. Elige los que quieras en la barra de generación — la disponibilidad depende del nivel de tu plan, y los modelos no compatibles darán error al momento de generar."
+      "offeredNote": "Modelos que ofrece este plan. Elige los que quieras en la barra de generación, la disponibilidad depende del nivel de tu plan, y los modelos no compatibles darán error al momento de generar."
     },
     "skills": {
       "nav": "Skills",

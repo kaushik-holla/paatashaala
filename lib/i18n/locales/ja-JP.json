@@ -77,7 +77,7 @@
     "videoTooLarge": "エクスポートファイルがサービスのサイズ上限を超えています。",
     "videoWarnings": "{{assets}} 個の素材が不足しており、エクスポートレポートに {{diagnostics}} 件の問題があります。",
     "videoMp4Success": "動画をレンダリングしました",
-    "videoServiceUnavailable": "レンダーサービスが未設定です — ローカルレンダリング用にプロジェクト ZIP をダウンロードしました。",
+    "videoServiceUnavailable": "レンダーサービスが未設定です、ローカルレンダリング用にプロジェクト ZIP をダウンロードしました。",
     "videoResolution": "解像度",
     "videoFps": "フレームレート",
     "videoQuality": "品質",
@@ -648,7 +648,7 @@
       "startPicking": "要素を参照"
     },
     "dock": {
-      "elementRefHint": "要素参照 — 次のメッセージと一緒に送る要素を選ぶ",
+      "elementRefHint": "要素参照、次のメッセージと一緒に送る要素を選ぶ",
       "globalTools": "全体ツール"
     }
   },
@@ -691,7 +691,7 @@
     "totalPrefix": "全",
     "pointsSuffix": "点",
     "startQuiz": "クイズを開始",
-    "multipleChoiceHint": "（複数選択 — 正解をすべて選んでください）",
+    "multipleChoiceHint": "（複数選択、正解をすべて選んでください）",
     "inputPlaceholder": "ここに回答を入力...",
     "charCount": "文字",
     "yourAnswer": "あなたの回答：",
@@ -830,7 +830,7 @@
         "continueHint": "Continue ボタンをクリックすると次のステージに進みます。",
         "alreadyEntered": "次のステージに入りました",
         "continueToNext": "次のステージへ進む",
-        "projectAlmostDone": "🎉 プロジェクトほぼ完了 — 完了レポートを待っています"
+        "projectAlmostDone": "🎉 プロジェクトほぼ完了、完了レポートを待っています"
       },
       "taskEvalCard": {
         "title": "今回の提出物へのフィードバック",
@@ -915,7 +915,7 @@
         "coreStageBadge": "コア",
         "conceptsInStageLabel": "概念をアンロック：",
         "submissionsInStage": "{{count}}件の作品を提出",
-        "coreConceptGrasp": "コア概念「{{concept}}」——{{quality}}",
+        "coreConceptGrasp": "コア概念「{{concept}}」、{{quality}}",
         "stageNoData": "このステージには記録された成果がありません。",
         "highlightsTitle": "あなたのハイライト",
         "scenario": {
@@ -942,9 +942,9 @@
           "castLabel": "やり取りした相手：{{names}}"
         },
         "highlight": {
-          "independence": "{{unlocks}}/{{total}}の概念を自ら示しました——問われる前に、自分から表現できています。",
-          "resilience": "「{{title}}」ステージで{{errors}}回のエラーを克服——粘り強いです。",
-          "resilienceGeneral": "{{errors}}回のエラーを克服——粘り強いです。",
+          "independence": "{{unlocks}}/{{total}}の概念を自ら示しました、問われる前に、自分から表現できています。",
+          "resilience": "「{{title}}」ステージで{{errors}}回のエラーを克服、粘り強いです。",
+          "resilienceGeneral": "{{errors}}回のエラーを克服、粘り強いです。",
           "completion": "全タスクを完了しました。着実に進みました。"
         },
         "synthesisQuality": {
@@ -1020,7 +1020,7 @@
   },
   "upload": {
     "pdfSizeLimit": "50MBまでのPDFファイルに対応しています",
-    "courseMaterialSizeLimit": "ドキュメント、スライド、表計算、画像、テキスト — 最大50MB（対応形式は選択したエクストラクタに依存）",
+    "courseMaterialSizeLimit": "ドキュメント、スライド、表計算、画像、テキスト、最大50MB（対応形式は選択したエクストラクタに依存）",
     "generateFailed": "教室の生成に失敗しました。もう一度お試しください",
     "requirementPlaceholder": "学びたいことを自由に入力してください。例えば：\n「Pythonをゼロから30分で教えて」\n「フーリエ変換をホワイトボードで解説して」\n「ボードゲーム『アバロン』の遊び方」",
     "requirementRequired": "コースの要件を入力してください",
@@ -1502,8 +1502,8 @@
     "noTranscriptionResult": "文字起こし結果がありません",
     "baseUrlOptional": "ベースURL（任意）",
     "defaultValue": "デフォルト",
-    "voiceMarin": "おすすめ — 最高品質",
-    "voiceCedar": "おすすめ — 最高品質",
+    "voiceMarin": "おすすめ、最高品質",
+    "voiceCedar": "おすすめ、最高品質",
     "voiceAlloy": "ニュートラル、バランス型",
     "voiceAsh": "落ち着いた、プロフェッショナル",
     "voiceBallad": "エレガント、叙情的",
@@ -1564,7 +1564,7 @@
     "qwenVoiceJada": "活発な上海のお姉さん",
     "qwenVoiceDylan": "北京の男の子",
     "qwenVoiceLi": "忍耐強いヨガインストラクター",
-    "qwenVoiceMarcus": "広い顔、少ない言葉、確かな心 — 陝西の味",
+    "qwenVoiceMarcus": "広い顔、少ない言葉、確かな心、陝西の味",
     "qwenVoiceRoy": "ユーモラスで率直な台湾男子",
     "qwenVoicePeter": "天津漫才のプロ相方",
     "qwenVoiceSunny": "甘い四川の女の子",
@@ -1769,7 +1769,7 @@
     "ttsProviderEnabledHint": "オフにすると、このプロバイダーは音声選択に表示されず、自動割り当てもされません。",
     "ttsProviderUnavailableHint": "有効化する前にこのプロバイダーを設定してください。",
     "ttsProviderDisabledByAdmin": "このプロバイダーはサーバー管理者によって無効化されており、有効化できません。",
-    "optionalOverride": "任意 — 空欄の場合はサーバー設定を使用",
+    "optionalOverride": "任意、空欄の場合はサーバー設定を使用",
     "setupNeeded": "設定が必要です",
     "modelNotConfigured": "モデルを選択して開始してください",
     "dangerZone": "危険な操作",
@@ -1818,7 +1818,7 @@
     },
     "fetchModels": "Fetch Models",
     "fetchModelsResult": "Fetched {total} models, added {added}",
-    "fetchModelsNoEndpoint": "This provider has no model list endpoint — add models manually",
+    "fetchModelsNoEndpoint": "This provider has no model list endpoint、add models manually",
     "fetchModelsAuthError": "API key is invalid or expired",
     "fetchModelsFailed": "Failed to fetch models",
     "usage": {
@@ -1848,14 +1848,14 @@
     "tokenPlan": {
       "nav": "Token Plan",
       "title": "Token Plan Setup",
-      "desc": "Pick your token plan provider and enter the key — it auto-configures every adapted modality (LLM/image/video/speech/web search).",
+      "desc": "Pick your token plan provider and enter the key、it auto-configures every adapted modality (LLM/image/video/speech/web search).",
       "selectPlan": "Select Provider",
       "apiKey": "API Key",
       "enable": "Enable",
       "updateKey": "Update key",
       "modelsCount": "{{n}} models",
       "capabilities": "Capabilities offered",
-      "offeredNote": "Models offered by this plan. Pick the ones you want on the generation bar — availability depends on your plan tier, and unsupported models will error at generation time."
+      "offeredNote": "Models offered by this plan. Pick the ones you want on the generation bar、availability depends on your plan tier, and unsupported models will error at generation time."
     },
     "skills": {
       "nav": "スキル",
@@ -1863,7 +1863,7 @@
       "description": "アカウントにインストールされているスキルを閲覧し、詳細を確認して、zip としてダウンロードして共有・バックアップできます。",
       "mySkills": "マイスキル",
       "builtinSkills": "内蔵スキル",
-      "emptyMySkills": "まだ自分のスキルがありません——チャットでエージェントに履歴から作成させましょう。",
+      "emptyMySkills": "まだ自分のスキルがありません、チャットでエージェントに履歴から作成させましょう。",
       "emptyBuiltinSkills": "利用可能な内蔵スキルはありません。",
       "listFailed": "スキル一覧を読み込めませんでした",
       "retry": "再試行",

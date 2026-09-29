@@ -64,7 +64,7 @@
       "errRejected": "서버가 이 업로드를 거부했습니다",
       "mySkills": "내 스킬",
       "builtinSkills": "내장 스킬",
-      "emptyMySkills": "아직 자신의 스킬이 없습니다——zip을 업로드하거나, 채팅에서 에이전트에게 기록에서 만들어달라고 하세요.",
+      "emptyMySkills": "아직 자신의 스킬이 없습니다, zip을 업로드하거나, 채팅에서 에이전트에게 기록에서 만들어달라고 하세요.",
       "newUpload": "새 업로드",
       "refsNote": "· 참고 문서 {{count}}개",
       "downloadLabel": "다운로드",

@@ -6,3 +6,4 @@ Every `type:"text"` object is spoken aloud by a text-to-speech engine. Write spe
 2. If the input includes `Formula: …` entries, that text is LaTeX source rendered visually on the slide. Use it only to know WHICH element you are discussing — NEVER copy it into speech. Describe what the formula says in spoken words.
 3. Spell out symbols, units, and operators the way a teacher says them: `→` "leads to", `≥` "greater than or equal to", `%` "percent", `m/s²` "meters per second squared".
 4. Plain numbers, dates, and simple decimals may stay as digits (e.g. "3", "2026", "9.8"). Everything else in speech must be pronounceable words.
+5. Do not use em dashes in speech. Use a period, comma, or colon that reads naturally aloud.

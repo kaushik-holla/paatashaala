@@ -64,7 +64,7 @@
       "errRejected": "Der Server hat diesen Upload abgelehnt",
       "mySkills": "Meine Skills",
       "builtinSkills": "Eingebaute Skills",
-      "emptyMySkills": "Noch keine eigenen Skills — lade ein zip hoch oder lass den Agenten in einem Chat einen aus dem Verlauf erstellen.",
+      "emptyMySkills": "Noch keine eigenen Skills, lade ein zip hoch oder lass den Agenten in einem Chat einen aus dem Verlauf erstellen.",
       "newUpload": "neu",
       "refsNote": "· {{count}} Referenzdokumente",
       "downloadLabel": "Herunterladen",

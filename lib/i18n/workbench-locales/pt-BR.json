@@ -64,7 +64,7 @@
       "errRejected": "O servidor recusou este envio",
       "mySkills": "Meus skills",
       "builtinSkills": "Skills integrados",
-      "emptyMySkills": "Você ainda não tem skills próprios — envie um zip ou peça ao agente, num chat, para criar um a partir do histórico.",
+      "emptyMySkills": "Você ainda não tem skills próprios, envie um zip ou peça ao agente, num chat, para criar um a partir do histórico.",
       "newUpload": "novo",
       "refsNote": "· {{count}} documentos de referência",
       "downloadLabel": "Baixar",

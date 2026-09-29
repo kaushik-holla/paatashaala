@@ -77,7 +77,7 @@
     "videoTooLarge": "내보내기 파일이 서비스의 크기 제한을 초과했습니다.",
     "videoWarnings": "{{assets}}개의 에셋이 누락되었고 내보내기 보고서에 {{diagnostics}}개의 문제가 있습니다.",
     "videoMp4Success": "동영상이 렌더링되었습니다",
-    "videoServiceUnavailable": "렌더 서비스가 구성되지 않았습니다 — 로컬 렌더링용 프로젝트 ZIP을 다운로드했습니다.",
+    "videoServiceUnavailable": "렌더 서비스가 구성되지 않았습니다, 로컬 렌더링용 프로젝트 ZIP을 다운로드했습니다.",
     "videoResolution": "해상도",
     "videoFps": "프레임 속도",
     "videoQuality": "품질",
@@ -237,7 +237,7 @@
     "exitFullscreen": "전체화면 종료",
     "editCourse": "강좌 편집",
     "doneEditing": "편집 완료",
-    "proModeDisabledHint": "이 페이지에서는 편집할 수 없습니다 — 코스 슬라이드를 열면 Pro 모드로 편집할 수 있습니다."
+    "proModeDisabledHint": "이 페이지에서는 편집할 수 없습니다, 코스 슬라이드를 열면 Pro 모드로 편집할 수 있습니다."
   },
   "edit": {
     "proMode": "프로 모드",
@@ -648,7 +648,7 @@
       "startPicking": "요소 참조"
     },
     "dock": {
-      "elementRefHint": "요소 참조 — 다음 메시지와 함께 보낼 요소 선택",
+      "elementRefHint": "요소 참조, 다음 메시지와 함께 보낼 요소 선택",
       "globalTools": "전역 도구"
     }
   },
@@ -662,9 +662,9 @@
     },
     "quizScoreLabel": "{{total}}문제 중 {{correct}}개 정답",
     "encouragement": {
-      "high": "훌륭합니다 — 완벽하게 해내셨어요!",
-      "mid": "잘하셨어요 — 계속 이대로 나아가세요.",
-      "low": "좋은 시작입니다 — 복습하고 다시 도전해 보세요."
+      "high": "훌륭합니다, 완벽하게 해내셨어요!",
+      "mid": "잘하셨어요, 계속 이대로 나아가세요.",
+      "low": "좋은 시작입니다, 복습하고 다시 도전해 보세요."
     }
   },
   "whiteboard": {
@@ -691,7 +691,7 @@
     "totalPrefix": "",
     "pointsSuffix": "점",
     "startQuiz": "퀴즈 시작",
-    "multipleChoiceHint": "(복수 선택 — 정답을 모두 고르세요)",
+    "multipleChoiceHint": "(복수 선택, 정답을 모두 고르세요)",
     "inputPlaceholder": "여기에 답을 입력하세요...",
     "charCount": "자",
     "yourAnswer": "내 답변:",
@@ -751,7 +751,7 @@
         "continueProject": "Continue Project",
         "resetProgress": "Reset learning progress",
         "resetConfirmTitle": "Reset learning progress?",
-        "resetConfirmDescription": "This clears all progress for this project — chat history, submissions, and stage status — and you'll start over from the beginning. This can't be undone.",
+        "resetConfirmDescription": "This clears all progress for this project, chat history, submissions, and stage status, and you'll start over from the beginning. This can't be undone.",
         "resetConfirmConfirm": "Reset",
         "resetConfirmCancel": "Cancel",
         "startHint": "Click to enter the workspace. {{name}} will guide you through each stage.",
@@ -830,7 +830,7 @@
         "continueHint": "Click Continue to enter the next stage.",
         "alreadyEntered": "Next stage entered",
         "continueToNext": "Continue to Next Stage",
-        "projectAlmostDone": "🎉 Project almost done — awaiting completion report"
+        "projectAlmostDone": "🎉 Project almost done, awaiting completion report"
       },
       "taskEvalCard": {
         "title": "Submission Feedback",
@@ -838,7 +838,7 @@
         "improvements": "Next steps"
       },
       "briefing": {
-        "intro": "The premise introduced during prep — kept here so you can revisit it anytime in the scene.",
+        "intro": "The premise introduced during prep, kept here so you can revisit it anytime in the scene.",
         "tablistLabel": "Right panel tabs",
         "submissionTab": "Submit",
         "briefingTab": "Briefing",
@@ -864,7 +864,7 @@
         "unsupportedFileType": "Unsupported file type. Only text files (.txt, .md, .csv, .json, .py, …) and PDF are accepted.",
         "pasteTab": "Paste text / image",
         "uploadTab": "Upload file",
-        "pastePlaceholder": "Paste your code, document, answer — or an image / screenshot — here…",
+        "pastePlaceholder": "Paste your code, document, answer, or an image / screenshot, here…",
         "uploadPlaceholder": "Uploaded content will appear here. Edit before submitting…",
         "imageCaptionPlaceholder": "Add an optional caption for this image…",
         "imageSelectedReplace": "Image selected · click to replace",
@@ -875,7 +875,7 @@
         "hints": "Hints",
         "submitOutput": "Submit",
         "evaluating": "Evaluating submission…",
-        "lockedWhileStreaming": "The instructor is replying — please wait before submitting.",
+        "lockedWhileStreaming": "The instructor is replying, please wait before submitting.",
         "evalFailed": "Evaluation failed: {{error}}",
         "submittedCount": "{{count}} submitted",
         "submissionHistory": "Submission History",
@@ -915,7 +915,7 @@
         "coreStageBadge": "Core",
         "conceptsInStageLabel": "Concepts:",
         "submissionsInStage": "Submitted {{count}} piece(s) of work",
-        "coreConceptGrasp": "Core concept \"{{concept}}\" — {{quality}}",
+        "coreConceptGrasp": "Core concept \"{{concept}}\", {{quality}}",
         "stageNoData": "No recorded output in this stage.",
         "scenario": {
           "summary": "You completed all {{acts}} acts of this scenario. Here's how the role-play went.",
@@ -924,7 +924,7 @@
           "statGoals": "Goals met",
           "statActs": "Acts completed",
           "goalReviewTitle": "Act-by-act review",
-          "goalReviewHint": "This scenario set a few key goals for each act. Here's a look back at how your conversation actually went — you met {{achieved}} of {{total}} this time.",
+          "goalReviewHint": "This scenario set a few key goals for each act. Here's a look back at how your conversation actually went, you met {{achieved}} of {{total}} this time.",
           "goalListTitle": "What each act asked of you",
           "goalListHint": "This scenario set a few key goals for each act. Here's a look back at what each act asked you to do.",
           "goalAchieved": "achieved",
@@ -942,9 +942,9 @@
         },
         "highlightsTitle": "Highlights",
         "highlight": {
-          "independence": "You demonstrated {{unlocks}}/{{total}} concepts on your own — no prompting needed. Solid understanding.",
-          "resilience": "In \"{{title}}\" you overcame {{errors}} errors, tackling each one — real grit.",
-          "resilienceGeneral": "You overcame {{errors}} errors, tackling each one — real grit.",
+          "independence": "You demonstrated {{unlocks}}/{{total}} concepts on your own, no prompting needed. Solid understanding.",
+          "resilience": "In \"{{title}}\" you overcame {{errors}} errors, tackling each one, real grit.",
+          "resilienceGeneral": "You overcame {{errors}} errors, tackling each one, real grit.",
           "completion": "You completed every task. Steady progress all the way through."
         },
         "synthesisQuality": {
@@ -1020,7 +1020,7 @@
   },
   "upload": {
     "pdfSizeLimit": "최대 50MB PDF 파일을 지원합니다",
-    "courseMaterialSizeLimit": "문서, 슬라이드, 스프레드시트, 이미지, 텍스트 — 최대 50MB (지원 형식은 선택한 파서에 따라 다름)",
+    "courseMaterialSizeLimit": "문서, 슬라이드, 스프레드시트, 이미지, 텍스트, 최대 50MB (지원 형식은 선택한 파서에 따라 다름)",
     "generateFailed": "교실 생성에 실패했습니다. 다시 시도해주세요",
     "requirementPlaceholder": "학습하고 싶은 내용을 자유롭게 입력하세요, 예:\n\"파이썬을 30분 만에 처음부터 가르쳐주세요\"\n\"칠판에 푸리에 변환을 설명해주세요\"\n\"보드게임 Avalon 하는 방법\"",
     "requirementRequired": "강좌 요구사항을 입력해주세요",
@@ -1564,7 +1564,7 @@
     "qwenVoiceJada": "활발한 상하이 아가씨",
     "qwenVoiceDylan": "베이징 소년",
     "qwenVoiceLi": "다정한 요가 선생님",
-    "qwenVoiceMarcus": "넓은 얼굴, 과묵한 말투, 단단한 심지 — 옛 산시 사나이",
+    "qwenVoiceMarcus": "넓은 얼굴, 과묵한 말투, 단단한 심지, 옛 산시 사나이",
     "qwenVoiceRoy": "유머러스하고 솔직한 대만 소년",
     "qwenVoicePeter": "천진 만담 전문 진행자",
     "qwenVoiceSunny": "달콤한 쓰촨 아가씨",
@@ -1769,7 +1769,7 @@
     "ttsProviderEnabledHint": "비활성화하면 이 제공업체가 음성 선택기에서 숨겨지고 자동으로 지정되지 않습니다.",
     "ttsProviderUnavailableHint": "활성화하기 전에 이 제공업체를 설정하세요.",
     "ttsProviderDisabledByAdmin": "이 제공업체는 서버 관리자에 의해 비활성화되어 있으며 활성화할 수 없습니다.",
-    "optionalOverride": "선택 사항 — 비워두면 서버 설정이 사용됩니다",
+    "optionalOverride": "선택 사항, 비워두면 서버 설정이 사용됩니다",
     "setupNeeded": "설정 필요",
     "modelNotConfigured": "시작하려면 모델을 선택하세요",
     "dangerZone": "위험 구역",
@@ -1818,7 +1818,7 @@
     },
     "fetchModels": "Fetch Models",
     "fetchModelsResult": "Fetched {total} models, added {added}",
-    "fetchModelsNoEndpoint": "This provider has no model list endpoint — add models manually",
+    "fetchModelsNoEndpoint": "This provider has no model list endpoint, add models manually",
     "fetchModelsAuthError": "API key is invalid or expired",
     "fetchModelsFailed": "Failed to fetch models",
     "usage": {
@@ -1848,14 +1848,14 @@
     "tokenPlan": {
       "nav": "Token Plan",
       "title": "Token Plan Setup",
-      "desc": "Pick your token plan provider and enter the key — it auto-configures every adapted modality (LLM/image/video/speech/web search).",
+      "desc": "Pick your token plan provider and enter the key, it auto-configures every adapted modality (LLM/image/video/speech/web search).",
       "selectPlan": "Select Provider",
       "apiKey": "API Key",
       "enable": "Enable",
       "updateKey": "Update key",
       "modelsCount": "{{n}} models",
       "capabilities": "Capabilities offered",
-      "offeredNote": "Models offered by this plan. Pick the ones you want on the generation bar — availability depends on your plan tier, and unsupported models will error at generation time."
+      "offeredNote": "Models offered by this plan. Pick the ones you want on the generation bar, availability depends on your plan tier, and unsupported models will error at generation time."
     },
     "skills": {
       "nav": "스킬",
@@ -1863,7 +1863,7 @@
       "description": "계정에 설치된 스킬을 둘러보고, 스킬 상세를 확인하고, 공유하거나 백업할 수 있도록 zip으로 다운로드하세요.",
       "mySkills": "내 스킬",
       "builtinSkills": "내장 스킬",
-      "emptyMySkills": "아직 자신의 스킬이 없습니다——채팅에서 에이전트에게 기록에서 만들어달라고 하세요.",
+      "emptyMySkills": "아직 자신의 스킬이 없습니다, 채팅에서 에이전트에게 기록에서 만들어달라고 하세요.",
       "emptyBuiltinSkills": "사용 가능한 내장 스킬이 없습니다.",
       "listFailed": "스킬 목록을 불러오지 못했습니다",
       "retry": "다시 시도",
@@ -1989,9 +1989,9 @@
     "defaultNickname": "학습자",
     "chooseAvatar": "아바타 선택",
     "uploadAvatar": "업로드",
-    "bioPlaceholder": "자신에 대해 알려주세요 — AI 선생님이 맞춤 수업을 준비해 드립니다...",
+    "bioPlaceholder": "자신에 대해 알려주세요, AI 선생님이 맞춤 수업을 준비해 드립니다...",
     "avatarHint": "아바타는 교실 토론 및 채팅에 표시됩니다",
-    "fileTooLarge": "이미지가 너무 큽니다 — 5MB 미만의 파일을 선택해 주세요",
+    "fileTooLarge": "이미지가 너무 큽니다, 5MB 미만의 파일을 선택해 주세요",
     "invalidFileType": "이미지 파일을 선택해 주세요",
     "editTooltip": "클릭하여 프로필 수정"
   },

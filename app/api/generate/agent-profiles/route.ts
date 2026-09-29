@@ -169,7 +169,7 @@ export async function POST(req: NextRequest) {
     // ── Build prompt ──
     const sceneSummary = sceneOutlines?.length
       ? sceneOutlines
-          .map((s, i) => `${i + 1}. ${s.title}${s.description ? ` — ${s.description}` : ''}`)
+          .map((s, i) => `${i + 1}. ${s.title}${s.description ? `: ${s.description}` : ''}`)
           .join('\n')
       : null;
 
@@ -195,7 +195,7 @@ export async function POST(req: NextRequest) {
 
     const voicePrompt = voiceListStr
       ? narratorBinding
-        ? `- The teacher agent's voice is FIXED to the narrator voice "${advertisedVoiceToken(narratorBinding)}" — set by the system, so omit the "voice" field for the teacher
+        ? `- The teacher agent's voice is FIXED to the narrator voice "${advertisedVoiceToken(narratorBinding)}": set by the system, so omit the "voice" field for the teacher
   - Every OTHER agent must still be assigned a voice from this list: ${voiceListStr}
   - Prefer a voice whose language matches the course language directive
   - Pick a voice that suits each agent's personality and role (e.g. lively voice for energetic student)
@@ -212,7 +212,7 @@ export async function POST(req: NextRequest) {
     // not in the advertised list would poison the example for non-teacher agents.
     const voiceJsonField = voiceListStr
       ? narratorBinding
-        ? `,\n      "voice": "string (voice id from available list, e.g. '${advertisedVoiceToken(availableVoices![0])}'; omit for the teacher — its voice is fixed)"`
+        ? `,\n      "voice": "string (voice id from available list, e.g. '${advertisedVoiceToken(availableVoices![0])}'; omit for the teacher because its voice is fixed)"`
         : `,\n      "voice": "string (voice id from available list, e.g. '${advertisedVoiceToken(availableVoices![0])}')"`
       : '';
 

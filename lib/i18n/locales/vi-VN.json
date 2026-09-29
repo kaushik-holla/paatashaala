@@ -77,7 +77,7 @@
     "videoTooLarge": "Tệp xuất vượt quá giới hạn kích thước của dịch vụ.",
     "videoWarnings": "Thiếu {{assets}} tài nguyên và có {{diagnostics}} vấn đề trong báo cáo xuất.",
     "videoMp4Success": "Đã kết xuất video",
-    "videoServiceUnavailable": "Chưa cấu hình dịch vụ kết xuất — đã tải về tệp ZIP dự án để bạn kết xuất tại máy.",
+    "videoServiceUnavailable": "Chưa cấu hình dịch vụ kết xuất, đã tải về tệp ZIP dự án để bạn kết xuất tại máy.",
     "videoResolution": "Độ phân giải",
     "videoFps": "Tốc độ khung hình",
     "videoQuality": "Chất lượng",
@@ -105,7 +105,7 @@
     "subtitlesEmpty": "Không có lời giảng để tạo phụ đề",
     "subtitlesFailed": "Tải phụ đề không thành công",
     "noSlides": "Không có slide nào để xuất",
-    "noSlidesSkipped": "Bài học này không có slide — đã bỏ qua PPTX",
+    "noSlidesSkipped": "Bài học này không có slide, đã bỏ qua PPTX",
     "nothingToExport": "Không có gì để xuất"
   },
   "import": {
@@ -237,7 +237,7 @@
     "exitFullscreen": "Thoát toàn màn hình",
     "editCourse": "Sửa bài học",
     "doneEditing": "Sửa xong",
-    "proModeDisabledHint": "Trang này không sửa được — hãy mở một slide bài học để dùng chế độ Pro."
+    "proModeDisabledHint": "Trang này không sửa được, hãy mở một slide bài học để dùng chế độ Pro."
   },
   "edit": {
     "proMode": "Pro",
@@ -490,13 +490,13 @@
       "placeholder": "Nói rõ bạn muốn sửa gì ở slide này…",
       "stop": "Dừng tạo",
       "empty": {
-        "lead": "Hãy nói tôi cần sửa slide này thế nào — tôi sẽ làm lại nội dung và chỉnh lời giảng cho khớp.",
+        "lead": "Hãy nói tôi cần sửa slide này thế nào, tôi sẽ làm lại nội dung và chỉnh lời giảng cho khớp.",
         "boundary": "Muốn sửa chi tiết thì dùng trình sửa; thêm / xóa / đổi thứ tự slide thì làm ở thanh bên trái.",
         "comingSoon": "Sẽ có thêm nhiều khả năng nữa."
       },
       "interactive": {
         "emptyTitle": "Trang này cần sửa chỗ nào?",
-        "lead": "Hãy mô tả lỗi trên trang tương tác này — ví dụ một nút bấm không có tác dụng — tôi sẽ chỉ sửa đúng chỗ đó và giữ nguyên phần còn lại.",
+        "lead": "Hãy mô tả lỗi trên trang tương tác này, ví dụ một nút bấm không có tác dụng, tôi sẽ chỉ sửa đúng chỗ đó và giữ nguyên phần còn lại.",
         "placeholder": "Mô tả lỗi trên trang tương tác này…",
         "boundary": "Tôi chỉ sửa đúng chỗ cần sửa, không dựng lại cả trang. Muốn đổi cảnh thì dùng thanh bên trái."
       },
@@ -558,7 +558,7 @@
     },
     "picker": {
       "title": "Chèn hành động",
-      "speechDesc": "Đọc một câu — có thể tự lồng tiếng",
+      "speechDesc": "Đọc một câu, có thể tự lồng tiếng",
       "spotlightDesc": "Làm nổi bật một đối tượng trên khung vẽ",
       "laserDesc": "Chiếu bút laser vào một đối tượng",
       "discussionDesc": "Nêu một câu hỏi và chọn ai mở lời"
@@ -575,13 +575,13 @@
     },
     "pick": {
       "pickFor": "Chọn một đối tượng cho \"{{label}}\"",
-      "pickHint": "Bấm vào một đối tượng đang được làm nổi bật hoặc chọn trong danh sách bên dưới — Esc để hủy",
+      "pickHint": "Bấm vào một đối tượng đang được làm nổi bật hoặc chọn trong danh sách bên dưới, Esc để hủy",
       "pageElements": "Đối tượng trên trang · {{count}}",
       "expand": "Mở rộng",
       "collapse": "Thu gọn",
       "noElements": "Slide này không có đối tượng nào để chọn.",
       "bindHint": "Bấm vào một đối tượng đang nổi bật trên khung vẽ để gắn",
-      "refCapHint": "Đã đạt giới hạn — bỏ một phần tử để thay · Esc để kết thúc",
+      "refCapHint": "Đã đạt giới hạn, bỏ một phần tử để thay · Esc để kết thúc",
       "refHint": "Nhấp để thêm hoặc bỏ · Esc để kết thúc",
       "refLead": "Đang tham chiếu phần tử · {{count}}/{{max}}"
     },
@@ -648,7 +648,7 @@
       "startPicking": "Tham chiếu phần tử"
     },
     "dock": {
-      "elementRefHint": "Tham chiếu phần tử — chọn phần tử để gửi kèm tin nhắn tiếp theo",
+      "elementRefHint": "Tham chiếu phần tử, chọn phần tử để gửi kèm tin nhắn tiếp theo",
       "globalTools": "Công cụ chung"
     }
   },
@@ -662,9 +662,9 @@
     },
     "quizScoreLabel": "Đúng {{correct}} / {{total}}",
     "encouragement": {
-      "high": "Xuất sắc — bạn làm rất tốt.",
-      "mid": "Khá tốt — cứ giữ đà này.",
-      "low": "Khởi đầu ổn — hãy xem lại rồi thử lần nữa."
+      "high": "Xuất sắc, bạn làm rất tốt.",
+      "mid": "Khá tốt, cứ giữ đà này.",
+      "low": "Khởi đầu ổn, hãy xem lại rồi thử lần nữa."
     }
   },
   "whiteboard": {
@@ -691,7 +691,7 @@
     "totalPrefix": "",
     "pointsSuffix": "điểm",
     "startQuiz": "Bắt đầu làm",
-    "multipleChoiceHint": "(Chọn nhiều đáp án — hãy chọn tất cả đáp án đúng)",
+    "multipleChoiceHint": "(Chọn nhiều đáp án, hãy chọn tất cả đáp án đúng)",
     "inputPlaceholder": "Nhập câu trả lời của bạn ở đây…",
     "charCount": "ký tự",
     "yourAnswer": "Câu trả lời của bạn:",
@@ -751,7 +751,7 @@
         "continueProject": "Tiếp tục dự án",
         "resetProgress": "Xóa tiến độ học",
         "resetConfirmTitle": "Xóa tiến độ học?",
-        "resetConfirmDescription": "Việc này sẽ xóa toàn bộ tiến độ của dự án — lịch sử trò chuyện, các bài đã nộp và trạng thái từng giai đoạn — và bạn sẽ bắt đầu lại từ đầu. Không thể hoàn tác.",
+        "resetConfirmDescription": "Việc này sẽ xóa toàn bộ tiến độ của dự án, lịch sử trò chuyện, các bài đã nộp và trạng thái từng giai đoạn, và bạn sẽ bắt đầu lại từ đầu. Không thể hoàn tác.",
         "resetConfirmConfirm": "Xóa",
         "resetConfirmCancel": "Hủy",
         "startHint": "Bấm để vào khu làm việc. {{name}} sẽ dẫn bạn qua từng giai đoạn.",
@@ -830,7 +830,7 @@
         "continueHint": "Bấm Tiếp tục để vào giai đoạn sau.",
         "alreadyEntered": "Đã vào giai đoạn sau",
         "continueToNext": "Sang giai đoạn tiếp theo",
-        "projectAlmostDone": "🎉 Dự án gần xong — đang chờ báo cáo hoàn thành"
+        "projectAlmostDone": "🎉 Dự án gần xong, đang chờ báo cáo hoàn thành"
       },
       "taskEvalCard": {
         "title": "Nhận xét bài nộp",
@@ -838,7 +838,7 @@
         "improvements": "Việc nên làm tiếp"
       },
       "briefing": {
-        "intro": "Bối cảnh đã giới thiệu ở phần chuẩn bị — giữ lại đây để bạn xem lại bất cứ lúc nào trong tình huống.",
+        "intro": "Bối cảnh đã giới thiệu ở phần chuẩn bị, giữ lại đây để bạn xem lại bất cứ lúc nào trong tình huống.",
         "tablistLabel": "Các thẻ khung bên phải",
         "submissionTab": "Nộp bài",
         "briefingTab": "Bối cảnh",
@@ -864,7 +864,7 @@
         "unsupportedFileType": "Loại tệp không được hỗ trợ. Chỉ nhận tệp văn bản (.txt, .md, .csv, .json, .py, …) và PDF.",
         "pasteTab": "Dán chữ / ảnh",
         "uploadTab": "Tải tệp lên",
-        "pastePlaceholder": "Dán mã, tài liệu, câu trả lời — hoặc một ảnh / ảnh chụp màn hình — vào đây…",
+        "pastePlaceholder": "Dán mã, tài liệu, câu trả lời, hoặc một ảnh / ảnh chụp màn hình, vào đây…",
         "uploadPlaceholder": "Nội dung đã tải lên sẽ hiện ở đây. Bạn có thể sửa trước khi nộp…",
         "imageCaptionPlaceholder": "Thêm chú thích cho ảnh này (không bắt buộc)…",
         "imageSelectedReplace": "Đã chọn ảnh · bấm để thay ảnh khác",
@@ -875,7 +875,7 @@
         "hints": "Gợi ý",
         "submitOutput": "Nộp",
         "evaluating": "Đang đánh giá bài nộp…",
-        "lockedWhileStreaming": "Giảng viên đang trả lời — vui lòng đợi rồi hãy nộp.",
+        "lockedWhileStreaming": "Giảng viên đang trả lời, vui lòng đợi rồi hãy nộp.",
         "evalFailed": "Đánh giá không thành công: {{error}}",
         "submittedCount": "Đã nộp {{count}}",
         "submissionHistory": "Các bài đã nộp",
@@ -915,7 +915,7 @@
         "coreStageBadge": "Cốt lõi",
         "conceptsInStageLabel": "Khái niệm:",
         "submissionsInStage": "Đã nộp {{count}} bài",
-        "coreConceptGrasp": "Khái niệm cốt lõi \"{{concept}}\" — {{quality}}",
+        "coreConceptGrasp": "Khái niệm cốt lõi \"{{concept}}\", {{quality}}",
         "stageNoData": "Không ghi nhận kết quả nào ở giai đoạn này.",
         "scenario": {
           "summary": "Bạn đã đi hết {{acts}} hồi của tình huống này. Dưới đây là diễn biến phần nhập vai.",
@@ -924,7 +924,7 @@
           "statGoals": "Mục tiêu đạt được",
           "statActs": "Số hồi đã xong",
           "goalReviewTitle": "Nhìn lại từng hồi",
-          "goalReviewHint": "Tình huống này đặt ra vài mục tiêu chính cho mỗi hồi. Dưới đây là diễn biến thực tế của cuộc trao đổi — lần này bạn đạt {{achieved}} trong {{total}} mục tiêu.",
+          "goalReviewHint": "Tình huống này đặt ra vài mục tiêu chính cho mỗi hồi. Dưới đây là diễn biến thực tế của cuộc trao đổi, lần này bạn đạt {{achieved}} trong {{total}} mục tiêu.",
           "goalListTitle": "Mỗi hồi yêu cầu bạn điều gì",
           "goalListHint": "Tình huống này đặt ra vài mục tiêu chính cho mỗi hồi. Dưới đây là phần nhìn lại yêu cầu của từng hồi.",
           "goalAchieved": "đã đạt",
@@ -942,9 +942,9 @@
         },
         "highlightsTitle": "Điểm nổi bật",
         "highlight": {
-          "independence": "Bạn tự nắm được {{unlocks}}/{{total}} khái niệm — không cần ai nhắc. Hiểu bài chắc chắn.",
-          "resilience": "Ở \"{{title}}\" bạn đã vượt qua {{errors}} lỗi, gỡ từng cái một — thật kiên trì.",
-          "resilienceGeneral": "Bạn đã vượt qua {{errors}} lỗi, gỡ từng cái một — thật kiên trì.",
+          "independence": "Bạn tự nắm được {{unlocks}}/{{total}} khái niệm, không cần ai nhắc. Hiểu bài chắc chắn.",
+          "resilience": "Ở \"{{title}}\" bạn đã vượt qua {{errors}} lỗi, gỡ từng cái một, thật kiên trì.",
+          "resilienceGeneral": "Bạn đã vượt qua {{errors}} lỗi, gỡ từng cái một, thật kiên trì.",
           "completion": "Bạn hoàn thành mọi nhiệm vụ. Tiến bộ đều đặn từ đầu đến cuối."
         },
         "synthesisQuality": {
@@ -1006,7 +1006,7 @@
     "folderDeleteFailed": "Không xóa được thư mục",
     "moveFailed": "Không chuyển được bài học",
     "emptyFolderHint": "Thư mục này đang trống",
-    "emptyLibraryHint": "Chưa có bài học nào — tạo mới ở trên hoặc nhập một bài học vào.",
+    "emptyLibraryHint": "Chưa có bài học nào, tạo mới ở trên hoặc nhập một bài học vào.",
     "folderNameEmpty": "Tên thư mục không được để trống",
     "deleteFolderOnly": "Chỉ xóa thư mục",
     "deleteFolderAndCourses": "Xóa thư mục và {{count}} bài học",
@@ -1020,7 +1020,7 @@
   },
   "upload": {
     "pdfSizeLimit": "Nhận tệp PDF tối đa 50MB",
-    "courseMaterialSizeLimit": "Tài liệu, slide, bảng tính, ảnh và văn bản thuần — tối đa 50MB (định dạng được nhận tùy vào bộ bóc tách đang chọn)",
+    "courseMaterialSizeLimit": "Tài liệu, slide, bảng tính, ảnh và văn bản thuần, tối đa 50MB (định dạng được nhận tùy vào bộ bóc tách đang chọn)",
     "generateFailed": "Không tạo được lớp học, vui lòng thử lại",
     "requirementPlaceholder": "Hãy nói bạn muốn học gì, ví dụ\n\"Dạy tôi Python từ đầu trong 30 phút\"\n\"Giảng phép biến đổi Fourier trên bảng\"\n\"Cách chơi board game Avalon\"",
     "requirementRequired": "Vui lòng nhập yêu cầu về bài học",
@@ -1284,7 +1284,7 @@
     "comfyuiAddWorkflowPrefix": "Hãy thêm một tệp",
     "comfyuiAddWorkflowSuffix": "để bắt đầu.",
     "comfyuiFolderHintPrefix": "Đặt các tệp JSON luồng công việc vào thư mục",
-    "comfyuiFolderHintMiddle": "của bạn. Tên tệp sẽ thành tên hiển thị — ví dụ",
+    "comfyuiFolderHintMiddle": "của bạn. Tên tệp sẽ thành tên hiển thị, ví dụ",
     "comfyuiLoadError": "Không nạp được luồng công việc: {error}",
     "addModel": "Thêm",
     "reset": "Đặt lại",
@@ -1373,8 +1373,8 @@
     "audioSettings": "Cài đặt âm thanh",
     "ttsSection": "Văn bản thành giọng nói (TTS)",
     "asrSection": "Nhận dạng giọng nói tự động (ASR)",
-    "ttsDescription": "TTS — chuyển văn bản thành giọng nói",
-    "asrDescription": "ASR — chuyển giọng nói thành văn bản",
+    "ttsDescription": "TTS, chuyển văn bản thành giọng nói",
+    "asrDescription": "ASR, chuyển giọng nói thành văn bản",
     "enableTTS": "Bật chuyển văn bản thành giọng nói",
     "ttsEnabledDescription": "Khi bật, hệ thống sẽ tạo giọng đọc trong lúc soạn bài học",
     "ttsVoiceConfigHint": "Giọng riêng cho từng nhân vật được đặt trong \"Cấu hình vai trong lớp\" ở trang chủ",
@@ -1502,8 +1502,8 @@
     "noTranscriptionResult": "Không có kết quả nào",
     "baseUrlOptional": "Địa chỉ gốc (không bắt buộc)",
     "defaultValue": "Mặc định",
-    "voiceMarin": "Khuyên dùng — chất lượng tốt nhất",
-    "voiceCedar": "Khuyên dùng — chất lượng tốt nhất",
+    "voiceMarin": "Khuyên dùng, chất lượng tốt nhất",
+    "voiceCedar": "Khuyên dùng, chất lượng tốt nhất",
     "voiceAlloy": "Trung tính, cân bằng",
     "voiceAsh": "Điềm đạm, chuyên nghiệp",
     "voiceBallad": "Thanh lịch, giàu nhạc điệu",
@@ -1564,7 +1564,7 @@
     "qwenVoiceJada": "Quý cô Thượng Hải hoạt bát",
     "qwenVoiceDylan": "Chàng trai Bắc Kinh",
     "qwenVoiceLi": "Cô giáo yoga kiên nhẫn",
-    "qwenVoiceMarcus": "Mặt chữ điền, nói ít, lòng vững — chất Thiểm Tây xưa",
+    "qwenVoiceMarcus": "Mặt chữ điền, nói ít, lòng vững, chất Thiểm Tây xưa",
     "qwenVoiceRoy": "Chàng trai Đài Loan hài hước, thẳng thắn",
     "qwenVoicePeter": "Người phụ họa tấu hài Thiên Tân chuyên nghiệp",
     "qwenVoiceSunny": "Cô gái Tứ Xuyên ngọt ngào",
@@ -1769,7 +1769,7 @@
     "ttsProviderEnabledHint": "Khi tắt, nhà cung cấp này bị ẩn khỏi phần chọn giọng và không bao giờ được gán tự động.",
     "ttsProviderUnavailableHint": "Hãy thiết lập nhà cung cấp này trước khi bật.",
     "ttsProviderDisabledByAdmin": "Nhà cung cấp này đã bị người quản trị máy chủ tắt và không thể bật lại.",
-    "optionalOverride": "Không bắt buộc — để trống sẽ dùng cấu hình của máy chủ",
+    "optionalOverride": "Không bắt buộc, để trống sẽ dùng cấu hình của máy chủ",
     "setupNeeded": "Cần thiết lập",
     "modelNotConfigured": "Vui lòng chọn một model để bắt đầu",
     "dangerZone": "Vùng nguy hiểm",
@@ -1818,7 +1818,7 @@
     },
     "fetchModels": "Lấy danh sách model",
     "fetchModelsResult": "Đã lấy {total} model, thêm được {added}",
-    "fetchModelsNoEndpoint": "Nhà cung cấp này không có endpoint danh sách model — hãy thêm model thủ công",
+    "fetchModelsNoEndpoint": "Nhà cung cấp này không có endpoint danh sách model, hãy thêm model thủ công",
     "fetchModelsAuthError": "Khóa API không đúng hoặc đã hết hạn",
     "fetchModelsFailed": "Không lấy được danh sách model",
     "usage": {
@@ -1848,14 +1848,14 @@
     "tokenPlan": {
       "nav": "Gói token",
       "title": "Thiết lập gói token",
-      "desc": "Chọn nhà cung cấp gói token và nhập khóa — hệ thống sẽ tự cấu hình mọi loại nội dung tương thích (model ngôn ngữ / ảnh / video / giọng nói / tìm web).",
+      "desc": "Chọn nhà cung cấp gói token và nhập khóa, hệ thống sẽ tự cấu hình mọi loại nội dung tương thích (model ngôn ngữ / ảnh / video / giọng nói / tìm web).",
       "selectPlan": "Chọn nhà cung cấp",
       "apiKey": "Khóa API",
       "enable": "Bật",
       "updateKey": "Cập nhật khóa",
       "modelsCount": "{{n}} model",
       "capabilities": "Khả năng được cung cấp",
-      "offeredNote": "Các model gói này cung cấp. Hãy chọn những model bạn muốn hiện trên thanh tạo bài — mức khả dụng tùy hạng gói của bạn, và model không được hỗ trợ sẽ báo lỗi lúc tạo bài."
+      "offeredNote": "Các model gói này cung cấp. Hãy chọn những model bạn muốn hiện trên thanh tạo bài, mức khả dụng tùy hạng gói của bạn, và model không được hỗ trợ sẽ báo lỗi lúc tạo bài."
     },
     "skills": {
       "nav": "Skill",
@@ -1863,7 +1863,7 @@
       "description": "Duyệt các skill đã cài cho tài khoản của bạn, xem chi tiết một skill và tải xuống dưới dạng zip để chia sẻ hoặc sao lưu.",
       "mySkills": "Skill của tôi",
       "builtinSkills": "Skill tích hợp",
-      "emptyMySkills": "Bạn chưa có skill riêng — hãy nhờ agent trong hội thoại tạo một cái từ lịch sử.",
+      "emptyMySkills": "Bạn chưa có skill riêng, hãy nhờ agent trong hội thoại tạo một cái từ lịch sử.",
       "emptyBuiltinSkills": "Không có skill tích hợp nào.",
       "listFailed": "Không thể tải danh sách skill",
       "retry": "Thử lại",
@@ -1957,7 +1957,7 @@
     "expandClassroom": "Classroom",
     "readOnlyBadge": "Read-only",
     "noCourseTitle": "No course open",
-    "noCourseHint": "Open one from a course link in the conversation, or pick one from the list on the left — the conversation stays put",
+    "noCourseHint": "Open one from a course link in the conversation, or pick one from the list on the left, the conversation stays put",
     "resizeChatAria": "Drag to resize the conversation pane",
     "firstPageLanding": "The first page is landing…",
     "autoSaving": "Đang tự động lưu…",
@@ -1989,9 +1989,9 @@
     "defaultNickname": "Bạn học",
     "chooseAvatar": "Chọn ảnh đại diện",
     "uploadAvatar": "Tải lên",
-    "bioPlaceholder": "Giới thiệu một chút về bạn — giảng viên AI sẽ dựa vào đó để soạn bài phù hợp với bạn…",
+    "bioPlaceholder": "Giới thiệu một chút về bạn, giảng viên AI sẽ dựa vào đó để soạn bài phù hợp với bạn…",
     "avatarHint": "Ảnh đại diện của bạn sẽ hiện trong phần thảo luận và trò chuyện của lớp",
-    "fileTooLarge": "Ảnh quá lớn — vui lòng chọn ảnh dưới 5 MB",
+    "fileTooLarge": "Ảnh quá lớn, vui lòng chọn ảnh dưới 5 MB",
     "invalidFileType": "Vui lòng chọn một tệp ảnh",
     "editTooltip": "Bấm để sửa trang cá nhân"
   },

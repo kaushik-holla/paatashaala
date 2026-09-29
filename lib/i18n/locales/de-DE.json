@@ -75,9 +75,9 @@
     "videoQueueFull": "Die Render-Warteschlange ist voll. Bitte versuche es in Kürze erneut.",
     "videoRenderInProgress": "Ein Rendervorgang läuft bereits. Bitte versuche es in Kürze erneut.",
     "videoTooLarge": "Das Exportarchiv überschreitet die Größenbeschränkung des Dienstes.",
-    "videoWarnings": "Exportbericht — fehlende Ressourcen: {{assets}}, Probleme: {{diagnostics}}.",
+    "videoWarnings": "Exportbericht, fehlende Ressourcen: {{assets}}, Probleme: {{diagnostics}}.",
     "videoMp4Success": "Video gerendert",
-    "videoServiceUnavailable": "Renderdienst nicht konfiguriert — das Projekt-ZIP wurde zum lokalen Rendern heruntergeladen.",
+    "videoServiceUnavailable": "Renderdienst nicht konfiguriert, das Projekt-ZIP wurde zum lokalen Rendern heruntergeladen.",
     "videoResolution": "Auflösung",
     "videoFps": "Bildrate",
     "videoQuality": "Qualität",
@@ -105,7 +105,7 @@
     "subtitlesEmpty": "Keine Erzählspur zum Erstellen von Untertiteln vorhanden",
     "subtitlesFailed": "Untertitel konnten nicht heruntergeladen werden",
     "noSlides": "Keine Folien zum Exportieren",
-    "noSlidesSkipped": "Dieser Kurs enthält keine Folien — PPTX wurde übersprungen",
+    "noSlidesSkipped": "Dieser Kurs enthält keine Folien, PPTX wurde übersprungen",
     "nothingToExport": "Nichts zu exportieren"
   },
   "import": {
@@ -237,7 +237,7 @@
     "exitFullscreen": "Vollbild beenden",
     "editCourse": "Kurs bearbeiten",
     "doneEditing": "Bearbeitung abschließen",
-    "proModeDisabledHint": "Diese Seite kann nicht bearbeitet werden — öffne eine Kursfolie, um sie im Pro-Modus zu bearbeiten."
+    "proModeDisabledHint": "Diese Seite kann nicht bearbeitet werden, öffne eine Kursfolie, um sie im Pro-Modus zu bearbeiten."
   },
   "edit": {
     "proMode": "Pro",
@@ -662,9 +662,9 @@
     },
     "quizScoreLabel": "{{correct}} / {{total}} richtig",
     "encouragement": {
-      "high": "Hervorragend — das sitzt.",
-      "mid": "Starke Leistung — weiter so.",
-      "low": "Ein guter Anfang — wiederhole den Stoff und versuche es erneut."
+      "high": "Hervorragend, das sitzt.",
+      "mid": "Starke Leistung, weiter so.",
+      "low": "Ein guter Anfang, wiederhole den Stoff und versuche es erneut."
     }
   },
   "whiteboard": {
@@ -691,7 +691,7 @@
     "totalPrefix": "",
     "pointsSuffix": "Pkt.",
     "startQuiz": "Quiz starten",
-    "multipleChoiceHint": "(Mehrfachauswahl — wähle alle richtigen Antworten aus)",
+    "multipleChoiceHint": "(Mehrfachauswahl, wähle alle richtigen Antworten aus)",
     "inputPlaceholder": "Gib deine Antwort hier ein...",
     "charCount": "Zeichen",
     "yourAnswer": "Deine Antwort:",
@@ -751,7 +751,7 @@
         "continueProject": "Projekt fortsetzen",
         "resetProgress": "Lernfortschritt zurücksetzen",
         "resetConfirmTitle": "Lernfortschritt zurücksetzen?",
-        "resetConfirmDescription": "Dadurch wird dein gesamter Fortschritt in diesem Projekt gelöscht — Chatverlauf, Einreichungen und Phasenstatus — und du beginnst wieder von vorn. Dieser Vorgang kann nicht rückgängig gemacht werden.",
+        "resetConfirmDescription": "Dadurch wird dein gesamter Fortschritt in diesem Projekt gelöscht, Chatverlauf, Einreichungen und Phasenstatus, und du beginnst wieder von vorn. Dieser Vorgang kann nicht rückgängig gemacht werden.",
         "resetConfirmConfirm": "Zurücksetzen",
         "resetConfirmCancel": "Abbrechen",
         "startHint": "Klicke, um den Arbeitsbereich zu öffnen. {{name}} begleitet dich durch jede Phase.",
@@ -830,7 +830,7 @@
         "continueHint": "Klicke auf „Weiter“, um die nächste Phase zu öffnen.",
         "alreadyEntered": "Nächste Phase geöffnet",
         "continueToNext": "Weiter zur nächsten Phase",
-        "projectAlmostDone": "🎉 Projekt fast abgeschlossen — Abschlussbericht steht noch aus"
+        "projectAlmostDone": "🎉 Projekt fast abgeschlossen, Abschlussbericht steht noch aus"
       },
       "taskEvalCard": {
         "title": "Feedback zur Einreichung",
@@ -838,7 +838,7 @@
         "improvements": "Nächste Schritte"
       },
       "briefing": {
-        "intro": "Die in der Vorbereitung vorgestellte Ausgangslage — hier gespeichert, damit du sie in der Szene jederzeit nachlesen kannst.",
+        "intro": "Die in der Vorbereitung vorgestellte Ausgangslage, hier gespeichert, damit du sie in der Szene jederzeit nachlesen kannst.",
         "tablistLabel": "Registerkarten im rechten Bereich",
         "submissionTab": "Abgabe",
         "briefingTab": "Briefing",
@@ -875,7 +875,7 @@
         "hints": "Tipps",
         "submitOutput": "Einreichen",
         "evaluating": "Einreichung wird ausgewertet …",
-        "lockedWhileStreaming": "Die Lernbegleitung antwortet gerade — warte bitte mit dem Einreichen.",
+        "lockedWhileStreaming": "Die Lernbegleitung antwortet gerade, warte bitte mit dem Einreichen.",
         "evalFailed": "Auswertung fehlgeschlagen: {{error}}",
         "submittedCount": "{{count}} eingereicht",
         "submissionHistory": "Einreichungsverlauf",
@@ -915,7 +915,7 @@
         "coreStageBadge": "Kernphase",
         "conceptsInStageLabel": "Konzepte:",
         "submissionsInStage": "Eingereichte Arbeiten: {{count}}",
-        "coreConceptGrasp": "Kernkonzept „{{concept}}“ — {{quality}}",
+        "coreConceptGrasp": "Kernkonzept „{{concept}}“, {{quality}}",
         "stageNoData": "Für diese Phase wurde kein Ergebnis aufgezeichnet.",
         "scenario": {
           "summary": "Du hast alle {{acts}} Akte dieses Szenarios abgeschlossen. So ist das Rollenspiel verlaufen.",
@@ -924,7 +924,7 @@
           "statGoals": "Erreichte Ziele",
           "statActs": "Abgeschlossene Akte",
           "goalReviewTitle": "Rückblick nach Akten",
-          "goalReviewHint": "Dieses Szenario hatte für jeden Akt einige wichtige Ziele. Hier siehst du rückblickend, wie dein Gespräch tatsächlich verlief — diesmal hast du {{achieved}} von {{total}} Zielen erreicht.",
+          "goalReviewHint": "Dieses Szenario hatte für jeden Akt einige wichtige Ziele. Hier siehst du rückblickend, wie dein Gespräch tatsächlich verlief, diesmal hast du {{achieved}} von {{total}} Zielen erreicht.",
           "goalListTitle": "Was jeder Akt von dir verlangt hat",
           "goalListHint": "Dieses Szenario hatte für jeden Akt einige wichtige Ziele. Hier siehst du rückblickend, was du in den einzelnen Akten tun solltest.",
           "goalAchieved": "erreicht",
@@ -942,9 +942,9 @@
         },
         "highlightsTitle": "Höhepunkte",
         "highlight": {
-          "independence": "Bei {{unlocks}} von {{total}} Konzepten hast du selbstständig gezeigt, was du kannst — ganz ohne Hinweise. Das zeugt von einem starken Verständnis.",
-          "resilience": "Bei „{{title}}“ hast du {{errors}} Fehler behoben — einen nach dem anderen. Das zeigt echte Ausdauer.",
-          "resilienceGeneral": "Du hast {{errors}} Fehler behoben — einen nach dem anderen. Das zeigt echte Ausdauer.",
+          "independence": "Bei {{unlocks}} von {{total}} Konzepten hast du selbstständig gezeigt, was du kannst, ganz ohne Hinweise. Das zeugt von einem starken Verständnis.",
+          "resilience": "Bei „{{title}}“ hast du {{errors}} Fehler behoben, einen nach dem anderen. Das zeigt echte Ausdauer.",
+          "resilienceGeneral": "Du hast {{errors}} Fehler behoben, einen nach dem anderen. Das zeigt echte Ausdauer.",
           "completion": "Du hast jede Aufgabe abgeschlossen und dabei durchgehend Fortschritte gemacht."
         },
         "synthesisQuality": {
@@ -1006,7 +1006,7 @@
     "folderDeleteFailed": "Ordner konnte nicht gelöscht werden",
     "moveFailed": "Kurs konnte nicht verschoben werden",
     "emptyFolderHint": "Dieser Ordner ist leer",
-    "emptyLibraryHint": "Noch keine Kurse — erstelle oben einen oder importiere einen Kurs.",
+    "emptyLibraryHint": "Noch keine Kurse, erstelle oben einen oder importiere einen Kurs.",
     "folderNameEmpty": "Der Ordnername darf nicht leer sein",
     "deleteFolderOnly": "Nur Ordner löschen",
     "deleteFolderAndCourses": "Ordner und {{count}} Kurs löschen",
@@ -1863,7 +1863,7 @@
       "description": "Durchsuche die für dein Konto installierten Skills, sieh dir einen Skill an und lade ihn als zip herunter, um ihn zu teilen oder zu sichern.",
       "mySkills": "Meine Skills",
       "builtinSkills": "Eingebaute Skills",
-      "emptyMySkills": "Noch keine eigenen Skills — lass den Agenten in einem Chat einen aus dem Verlauf erstellen.",
+      "emptyMySkills": "Noch keine eigenen Skills, lass den Agenten in einem Chat einen aus dem Verlauf erstellen.",
       "emptyBuiltinSkills": "Keine eingebauten Skills verfügbar.",
       "listFailed": "Die Skill-Liste konnte nicht geladen werden",
       "retry": "Erneut versuchen",
@@ -1957,7 +1957,7 @@
     "expandClassroom": "Classroom",
     "readOnlyBadge": "Read-only",
     "noCourseTitle": "No course open",
-    "noCourseHint": "Open one from a course link in the conversation, or pick one from the list on the left — the conversation stays put",
+    "noCourseHint": "Open one from a course link in the conversation, or pick one from the list on the left, the conversation stays put",
     "resizeChatAria": "Drag to resize the conversation pane",
     "firstPageLanding": "The first page is landing…",
     "autoSaving": "Wird automatisch gespeichert…",

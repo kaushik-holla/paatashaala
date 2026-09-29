@@ -581,7 +581,7 @@
       "collapse": "Replier",
       "noElements": "Aucun élément localisable sur cette diapositive.",
       "bindHint": "Cliquez sur un élément mis en évidence du canevas pour l’associer",
-      "refCapHint": "Limite atteinte — retirez-en un pour échanger · Échap pour terminer",
+      "refCapHint": "Limite atteinte, retirez-en un pour échanger · Échap pour terminer",
       "refHint": "Cliquez pour ajouter ou retirer · Échap pour terminer",
       "refLead": "Référencement d’éléments · {{count}}/{{max}}"
     },
@@ -648,7 +648,7 @@
       "startPicking": "Référencer des éléments"
     },
     "dock": {
-      "elementRefHint": "Références d’éléments — choisissez les éléments à joindre au prochain message",
+      "elementRefHint": "Références d’éléments, choisissez les éléments à joindre au prochain message",
       "globalTools": "Outils globaux"
     }
   },
@@ -990,7 +990,7 @@
     "deleteFolderOnly": "Supprimer le dossier uniquement",
     "deleteFolderTitle": "Supprimer le dossier « {{name}} »",
     "emptyFolderHint": "Ce dossier est vide",
-    "emptyLibraryHint": "Aucun cours pour le moment — créez-en un ci-dessus, ou importez un cours.",
+    "emptyLibraryHint": "Aucun cours pour le moment, créez-en un ci-dessus, ou importez un cours.",
     "folderBadge": "Dossier",
     "folderCountLimit": "Limite de dossiers atteinte.",
     "folderCourseCountUnit": "cours",
@@ -1863,7 +1863,7 @@
       "description": "Parcourez les skills installés pour votre compte, inspectez un skill et téléchargez-le en zip pour le partager ou le sauvegarder.",
       "mySkills": "Mes skills",
       "builtinSkills": "Skills intégrés",
-      "emptyMySkills": "Pas encore de skill à vous — demandez à l’agent d’en créer un depuis l’historique.",
+      "emptyMySkills": "Pas encore de skill à vous, demandez à l’agent d’en créer un depuis l’historique.",
       "emptyBuiltinSkills": "Aucun skill intégré disponible.",
       "listFailed": "Impossible de charger la liste des skills",
       "retry": "Réessayer",
@@ -1957,7 +1957,7 @@
     "expandClassroom": "Classroom",
     "readOnlyBadge": "Read-only",
     "noCourseTitle": "No course open",
-    "noCourseHint": "Open one from a course link in the conversation, or pick one from the list on the left — the conversation stays put",
+    "noCourseHint": "Open one from a course link in the conversation, or pick one from the list on the left, the conversation stays put",
     "resizeChatAria": "Drag to resize the conversation pane",
     "firstPageLanding": "The first page is landing…",
     "autoSaving": "Enregistrement automatique…",
