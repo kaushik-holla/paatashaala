@@ -1,7 +1,7 @@
 {
   "name": "@paatashaala/generation",
   "private": true,
-  "version": "0.3.14",
+  "version": "0.3.15",
   "description": "Generation pipeline contracts and prompt assets for Paatashaala.",
   "type": "module",
   "main": "./dist/index.js",
