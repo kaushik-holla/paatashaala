@@ -94,3 +94,7 @@ e2e/screenshots/
 e2e/__screenshots-619/
 /.playwright-mcp/
 /.pnpm-store/
+
+# Durable local course library and generated offline player
+/media
+/public/vendor/standalone-player

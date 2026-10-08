@@ -1,4 +1,9 @@
 import {
+  DiskDocumentStore,
+  DiskAssetPool,
+  isDiskLibraryEnabled,
+} from '@/lib/course-library/client';
+import {
   BrowserKVStore,
   HttpAssetStore,
   HttpDocumentStore,
@@ -98,4 +103,11 @@ if (isBrowserPersistenceEnabled()) {
       error,
     );
   }
+}
+
+if (isDiskLibraryEnabled()) {
+  assertDocumentStorageConfigurable();
+  assertAssetPoolStorageConfigurable();
+  configureDocumentStorage({ store: (validators) => new DiskDocumentStore(validators) });
+  configureAssetPoolStorage({ store: () => new DiskAssetPool(), serverBacked: true });
 }

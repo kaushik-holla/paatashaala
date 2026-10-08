@@ -1,3 +1,4 @@
+import { isDiskLibraryEnabled, libraryRequest } from '@/lib/course-library/client';
 /**
  * Stage Storage Manager
  *
@@ -793,12 +794,14 @@ export async function listStages(): Promise<StageListItem[]> {
       return await listOwnerStagesFromServer();
     }
     const summaries = await getDocumentStore().listDocuments();
-    const ids = new Set(summaries.map((summary) => summary.id));
+    const deleted = isDiskLibraryEnabled() ? await libraryRequest<DocumentSummary[]>('trash') : [];
+    const ids = new Set([...summaries, ...deleted].map((summary) => summary.id));
     const legacy = await getLegacyDocumentStore().listStages();
     const legacyOnly = await Promise.all(
       legacy
         .filter((stage) => !ids.has(stage.id))
         .map(async (stage) => {
+          if (isDiskLibraryEnabled()) await accessDocument(stage.id);
           const snapshot = await getLegacyDocumentStore().read(stage.id);
           return snapshot ? { ...stage, sceneCount: snapshot.scenes.length } : null;
         }),

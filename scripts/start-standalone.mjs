@@ -21,7 +21,12 @@ for (const [source, destination] of [
   cpSync(source, destination, { recursive: true, force: true });
 }
 
-const child = spawn(process.execPath, [server], { stdio: 'inherit', env: process.env });
+// The standalone server changes cwd to its generated checkout. Keep local
+// courses beside the project, so rebuilding never replaces the library.
+const child = spawn(process.execPath, [server], {
+  stdio: 'inherit',
+  env: { ...process.env, PAATASHAALA_PROJECT_DIR: process.cwd() },
+});
 for (const signal of ['SIGINT', 'SIGTERM']) {
   process.on(signal, () => child.kill(signal));
 }

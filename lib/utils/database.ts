@@ -1,3 +1,4 @@
+import { isDiskLibraryEnabled } from '@/lib/course-library/client';
 import Dexie, { type EntityTable, type Table } from 'dexie';
 import { migrate } from '@paatashaala/dsl';
 import type {
@@ -594,6 +595,14 @@ export async function initDatabase(): Promise<void> {
  * Use with caution: deletes all data
  */
 export async function clearDatabase(runtimeStore?: RuntimeStore): Promise<void> {
+  const diskLibrary = isDiskLibraryEnabled();
+  // Copy any remaining browser courses before clearing their source tables.
+  // Migration needs the shared runtime lock, so do it before taking the
+  // exclusive cleanup lock below.
+  if (diskLibrary) {
+    const { listStages } = await import('./stage-storage');
+    await listStages();
+  }
   // Clear the whole runtime database first, including rows orphaned by an
   // earlier best-effort stage deletion. This user-requested destructive action
   // must fail loud: reporting success while runtime data remains is misleading.
@@ -601,7 +610,8 @@ export async function clearDatabase(runtimeStore?: RuntimeStore): Promise<void> 
     const { bumpGeneration } = await import('@/lib/document-store/storage-generation');
     await bumpGeneration();
     await (runtimeStore ?? getRuntimeStore()).deleteAllRuntime();
-    await deleteAllDocuments();
+    // Local cache cleanup must never move durable disk courses to Trash.
+    if (!diskLibrary) await deleteAllDocuments();
     await clearDocumentStoreKeys();
     await db.delete();
     clearPendingMediaAllocations();
