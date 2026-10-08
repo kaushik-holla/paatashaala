@@ -20,6 +20,8 @@ import { useTheme } from '@/lib/hooks/use-theme';
 import { useStageStore } from '@/lib/store';
 import { useMediaGenerationStore } from '@/lib/store/media-generation';
 import { useExportPPTX } from '@/lib/export/use-export-pptx';
+import { CourseLibraryControls } from '@/components/stage/course-library-controls';
+import { useExportHtml } from '@/lib/export/use-export-html';
 import { useExportClassroom } from '@/lib/export/use-export-classroom';
 import { isScriptExportReady, useExportScript } from '@/lib/export/use-export-script';
 import { isVideoExportEnabled } from '@/lib/config/feature-flags';
@@ -94,6 +96,7 @@ export function HeaderControls({
   const mediaTasks = useMediaGenerationStore((s) => s.tasks);
   const { exporting: isExporting, exportPPTX, exportResourcePack } = useExportPPTX();
   const { exporting: isExportingZip, exportClassroomZip } = useExportClassroom();
+  const { exporting: isExportingHtml, exportStandaloneHtml } = useExportHtml();
   const { exporting: isExportingScript, exportScriptDocx, exportScriptMd } = useExportScript();
   const videoExportEnabled = isVideoExportEnabled();
   // Video render lives in a global store so its progress ring stays on the
@@ -146,6 +149,7 @@ export function HeaderControls({
             : 'bg-white/60 dark:bg-gray-800/60 border border-gray-100/50 dark:border-gray-700/50 px-2 py-1.5',
         )}
       >
+        <CourseLibraryControls />
         {/* Language — Radix DropdownMenu so its menu portals to body
             and never gets clipped by an ancestor's overflow-hidden. */}
         <LanguageSwitcher />
@@ -328,6 +332,17 @@ export function HeaderControls({
               <div className="text-[11px] text-gray-400 dark:text-gray-500">
                 {t('export.classroomZipDesc')}
               </div>
+            </div>
+          </DropdownMenuItem>
+          <DropdownMenuItem
+            disabled={!canExport || isExportingHtml}
+            onSelect={exportStandaloneHtml}
+            className="cursor-pointer gap-2.5"
+          >
+            <FileDown className="w-4 h-4 text-gray-400 shrink-0" />
+            <div>
+              <div>{t('export.html')}</div>
+              <div className="text-[11px] text-gray-400">{t('export.htmlDesc')}</div>
             </div>
           </DropdownMenuItem>
           <DropdownMenuSub>

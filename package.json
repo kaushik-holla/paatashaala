@@ -13,8 +13,8 @@
     "gen:video-export-katex": "node scripts/generate-video-export-katex.mjs",
     "gen:video-export-noto-cjk": "node scripts/generate-video-export-noto-cjk.mjs",
     "gen:video-export-noto-script-fonts": "node scripts/generate-video-export-noto-script-fonts.mjs",
-    "dev": "next dev",
-    "build": "node scripts/assert-vendor-maic-importer.mjs && next build",
+    "dev": "pnpm build:standalone-player && next dev",
+    "build": "node scripts/assert-vendor-maic-importer.mjs && pnpm build:standalone-player && next build",
     "start": "node scripts/start-standalone.mjs",
     "lint": "eslint",
     "check:i18n-keys": "node scripts/check-i18n-keys.mjs",
@@ -31,7 +31,8 @@
     "eval:outline-language": "tsx eval/outline-language/runner.ts",
     "eval:orchestration": "tsx eval/orchestration/runner.ts",
     "eval:orchestration:answering": "tsx eval/orchestration/answering-runner.ts",
-    "eval:orchestration:answer-content": "tsx eval/orchestration/answer-content-runner.ts"
+    "eval:orchestration:answer-content": "tsx eval/orchestration/answer-content-runner.ts",
+    "build:standalone-player": "node scripts/build-standalone-player.mjs"
   },
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^4.0.103",
@@ -145,6 +146,7 @@
     "react-colorful": "^5.7.0",
     "react-dom": "19.2.3",
     "react-i18next": "^17.0.1",
+    "remark-cjk-friendly": "^2.3.1",
     "sanitize-html": "2.17.0",
     "shadcn": "^3.6.3",
     "sharp": "0.35.4",
@@ -164,8 +166,7 @@
     "unpdf": "^1.4.0",
     "use-stick-to-bottom": "^1.1.1",
     "zod": "^4.3.5",
-    "zustand": "^5.0.10",
-    "remark-cjk-friendly": "^2.3.1"
+    "zustand": "^5.0.10"
   },
   "devDependencies": {
     "@electric-sql/pglite": "^0.3.16",
@@ -184,6 +185,7 @@
     "@types/react-dom": "^19",
     "@types/sanitize-html": "^2.16.1",
     "@types/tinycolor2": "^1.4.6",
+    "esbuild": "0.28.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.11",
     "fake-indexeddb": "^6.2.5",

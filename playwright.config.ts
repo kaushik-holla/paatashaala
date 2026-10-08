@@ -34,6 +34,9 @@ export default defineConfig({
     // `pnpm build` step; locally `pnpm dev` reads it here.
     env: {
       PORT: '3002',
+      // Existing UI fixtures seed a separate browser database per test.
+      // Durable server storage is exercised separately by course-library-api.spec.ts.
+      NEXT_PUBLIC_COURSE_STORAGE: 'browser',
       NEXT_PUBLIC_MAIC_EDITOR_ENABLED: 'true',
       NEXT_PUBLIC_PI_CHAT_ENABLED: 'true',
       NEXT_PUBLIC_COURSEWARE_REFERENCE_ENABLED: 'true',

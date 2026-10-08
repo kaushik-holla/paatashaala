@@ -58,7 +58,7 @@ Other commonly used choices include `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, `GROK
 
 ## Local use
 
-Clone the repository and run it on your own computer with `pnpm dev`, following the steps above. Keep `.env.local`, provider keys, course exports, and local data outside Git. Browser-stored courses are tied to the browser profile and site address; export any course you want to keep.
+Clone the repository and run it on your own computer with `pnpm dev`, following the steps above. Keep `.env.local`, provider keys, course exports, and local data outside Git. On localhost, courses and assets are automatically saved to `media/`, with version history and recoverable Trash. Back up that directory and use Classroom ZIP for editable transfers or offline HTML for studying on another device. See the local guide for browser migration and mobile-viewer requirements.
 
 For macOS start/stop scripts and backup notes, see [Paatashaala local setup](PAATASHAALA-LOCAL-GUIDE.md).
 

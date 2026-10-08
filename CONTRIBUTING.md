@@ -33,6 +33,8 @@ pnpm test
 pnpm build
 ```
 
+Before pushing or merging, run a redacted secret scan of the branch history (`gitleaks git --redact`) and a dependency audit (`pnpm audit`). Compare dependency findings with `main`, fix newly introduced vulnerable dependencies, and document remaining findings. Confirm that environment files, credentials, generated courses, media, and local logs are excluded from the published commits. Use the public Paatashaala repository for branches and merges.
+
 Some tests need local services or a browser; note any check you could not run. The internal workspace packages are not published to npm.
 
 ## Security and license

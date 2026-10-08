@@ -6,7 +6,7 @@ CLAUDE.local.md
 
 # dependencies
 /node_modules
-/.next-build
+/.next-*
 /openclaw/node_modules
 /openclaw/package-lock.json
 /.pnp
@@ -94,3 +94,7 @@ e2e/screenshots/
 e2e/__screenshots-619/
 /.playwright-mcp/
 /.pnpm-store/
+
+# Durable local course library and generated offline player
+/media
+/public/vendor/standalone-player

@@ -1,5 +1,7 @@
 'use client';
 
+import { CourseLibraryControls } from '@/components/stage/course-library-controls';
+
 import { useState, useEffect, useMemo, useRef, useDeferredValue } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'motion/react';
@@ -951,6 +953,7 @@ function HomePage() {
           </span>
         </button>
         <p className="learning-nav-label">YOUR SPACE</p>
+        <CourseLibraryControls />
         <nav>
           <button
             type="button"
