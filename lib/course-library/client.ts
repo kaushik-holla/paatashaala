@@ -1,6 +1,5 @@
 import {
   BrowserDocumentStore,
-  BrowserAssetStore,
   type DocumentStore,
   type DocumentSummary,
 } from '@paatashaala/storage';
@@ -50,7 +49,12 @@ async function saving<T>(work: () => Promise<T>): Promise<T> {
 }
 
 export class DiskAssetPool implements AssetPoolStore {
-  private legacy = new BrowserAssetStore({ dbName: 'maic-asset-pool' });
+  private legacy?: Promise<AssetPoolStore>;
+  private legacySource() {
+    return (this.legacy ??= import('@/lib/media/asset-pool').then(
+      ({ createLegacyBrowserAssetPool }) => createLegacyBrowserAssetPool(),
+    ));
+  }
   private migrations = new Map<string, Promise<boolean>>();
   private address(ref: string) {
     return `/api/course-library?asset=${encodeURIComponent(ref)}`;
@@ -80,16 +84,18 @@ export class DiskAssetPool implements AssetPoolStore {
     const prior = this.migrations.get(ref);
     if (prior) return prior;
     const work = (async () => {
-      const url = await this.legacy.resolve(ref);
-      if (!url) return false;
-      try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error('Could not read browser media');
-        await this.upload(ref, await response.blob());
-        return true;
-      } finally {
-        await this.legacy.release(ref);
-      }
+      const { withAssetUrl } = await import('@/lib/media/use-asset-url');
+      return withAssetUrl(
+        ref,
+        async (url) => {
+          if (!url) return false;
+          const response = await fetch(url);
+          if (!response.ok) throw new Error('Could not read browser media');
+          await this.upload(ref, await response.blob());
+          return true;
+        },
+        await this.legacySource(),
+      );
     })();
     this.migrations.set(ref, work);
     try {
@@ -106,7 +112,7 @@ export class DiskAssetPool implements AssetPoolStore {
   async remove() {}
   async release() {}
   async close() {
-    await this.legacy.close();
+    if (this.legacy) await (await this.legacy).close();
   }
 }
 function poolRefs(value: unknown): string[] {

@@ -71,6 +71,11 @@ if (typeof window !== 'undefined') {
     });
 }
 
+/** Isolated legacy source for copying browser assets into the disk library. */
+export function createLegacyBrowserAssetPool(): AssetPoolStore {
+  return new BrowserAssetStore({ dbName: ASSET_POOL_DATABASE_NAME });
+}
+
 /** Lazy browser-wide asset pool. Default construction is forbidden during SSR. */
 export function getAssetPool(): AssetPoolStore {
   if (clearing) throw new Error('The browser asset pool is being cleared.');

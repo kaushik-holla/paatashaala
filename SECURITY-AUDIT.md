@@ -22,4 +22,6 @@ The registry audit found existing vulnerabilities on public main: 6 critical, 14
 
 The initial direct esbuild dependency added another path for a known low-severity Windows development-server file-read advisory (GHSA-g7r4-m6w7-qqqr). It was upgraded to patched esbuild 0.28.1 before publication. The offline builder uses the build API, rather than serving files through esbuild's development server.
 
+The final registry audit reports 6 critical, 145 high, 169 moderate, and 25 low findings. There are no new advisory/package pairs compared with main; pnpm reports one additional path to an existing transitive esbuild advisory. The newly added direct builder dependency is patched.
+
 Broader existing dependency upgrades require a separate compatibility review. This audit does not certify the repository as vulnerability-free. Repeat secret scanning and dependency auditing before future pushes and merges.
