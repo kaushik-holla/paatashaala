@@ -6,7 +6,7 @@ CLAUDE.local.md
 
 # dependencies
 /node_modules
-/.next-build
+/.next-*
 /openclaw/node_modules
 /openclaw/package-lock.json
 /.pnp

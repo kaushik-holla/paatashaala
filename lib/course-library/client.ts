@@ -9,6 +9,7 @@ import type { AppDocument, AppStage } from '@/lib/document-store/persistence-typ
 import type { DocumentStorageValidators } from '@/lib/document-store/config';
 import type { AssetPoolStore } from '@/lib/media/asset-pool-config';
 import { beginCourseSave, finishCourseSave } from './status';
+import { mayNameAPoolAsset } from '@/lib/media/media-placeholder';
 
 export function isDiskLibraryEnabled() {
   if (
@@ -77,7 +78,7 @@ export class DiskAssetPool implements AssetPoolStore {
       throw new Error((await response.json()).error || 'Could not save course media');
   }
   async exists(ref: string): Promise<boolean> {
-    if (!/^ast_[a-zA-Z0-9_-]+$/.test(ref)) return false;
+    if (!mayNameAPoolAsset(ref) || !/^ast_[a-zA-Z0-9_-]+$/.test(ref)) return false;
     const response = await fetch(this.address(ref), { method: 'HEAD', cache: 'no-store' });
     if (response.ok) return true;
     if (response.status !== 404) throw new Error('Could not access saved course media');
